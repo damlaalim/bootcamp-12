@@ -34,7 +34,7 @@ Unity 12
     <tr>
       <th></th>
       <td>Buğra Mustafa Kasarcı</td>
-      <td>Game Developer</td>
+      <td>Game Developer, Product Owner</td>
       <td>
         <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
         <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
@@ -44,7 +44,7 @@ Unity 12
     <tr>
       <th></th>
       <td>Damla Alim</td>
-      <td>Game Developer</td>
+      <td>Game Developer, Scrum Master</td>
       <td>
         <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
         <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
