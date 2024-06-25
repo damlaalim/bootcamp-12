@@ -1,6 +1,6 @@
-<h2>Takım İsmi</h2>
+## Takım İsmi
 Unity 12 
-<h2>Takım Üyeleri</h2>
+## Takım Üyeleri
 <table>
   <thead>
     <tr>
@@ -63,23 +63,50 @@ Unity 12
   </tbody>
 </table>
 
-<h2>Oyun İsmi</h2> -
-<h2>Oyunun Açıklaması</h2> Bu oyun; doğa üstü bir diyarda geçen, oyuncuların bulmacalar çözerek ilerlemesini konu alan ve komedi unsurları içeren eşli bulmaca oyunudur.
-<h2>Oyunun Özellikleri</h2> 
-- 3D <br>
-- Multiplayer  
-<h2>Hedef Kitle</h2> 18-40 yaş arası gençler, yetişkinler, casual oyuncular
-<h2>Kullanılan Teknolojiler</h2> 
+## Oyun İsmi
+-
+## Oyunun Açıklaması
+Bu oyun; doğa üstü bir diyarda geçen, oyuncuların bulmacalar çözerek ilerlemesini konu alan ve komedi unsurları içeren eşli bulmaca oyunudur.
+## Oyunun Özellikleri 
+* 3D 
+* Multiplayer  
+## Hedef Kitle 
+* 18-40 yaş arası gençler, yetişkinler, casual oyuncular<br>
+* Puzzle sevenler<br>
+* PC oyuncuları
+## Kullanılan Teknolojiler 
 
-<h2>Sprintler</h2>  
+## Sprintler
 
 <details>
   <summary><h3>Sprint 1 (24/06/24 - 07/07/24)</h3></summary>
-  
+  <details>
+    <summary>Sprint Review</summary>
+  </details>
+  <details>
+    <summary>Sprint Retrospective</summary>
+  </details>
+  <details>
+    <summary>Ürün Durumu (Görseller)</summary>
+  </details>
 </details>
+
 <details>
   <summary><h3>Sprint 2 (08/07/24 - 21/07/24)</h3></summary>
+  <details>
+    <summary>Sprint Review</summary>
+  </details>
+  <details>
+    <summary>Sprint Retrospective</summary>
+  </details>
 </details>
+
 <details>
   <summary><h3>Sprint 3 (22/07/24 - 02/08/24)</h3></summary>
+  <details>
+    <summary>Sprint Review</summary>
+  </details>
+  <details>
+    <summary>Sprint Retrospective</summary>
+  </details>
 </details>
