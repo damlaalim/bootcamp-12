@@ -207,5 +207,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clampAngle: 80
-  _horizontalSpeed: 40
-  _verticalSpeed: 40
+  _horizontalSpeed: 60
+  _verticalSpeed: 60
