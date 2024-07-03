@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Bootcamp/Scenes/MultiPlayer Test Scene.unity
+    guid: 3a31b24d7f20831479087e4502f896e6
+  - enabled: 0
+    path: Assets/_Bootcamp/Scenes/Dialogue system Test.unity
+    guid: e2cefdaf4a524864e9ac872620a40830
   m_configObjects: {}
