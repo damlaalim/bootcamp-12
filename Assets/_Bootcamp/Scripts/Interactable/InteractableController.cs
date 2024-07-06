@@ -2,7 +2,7 @@
 
 namespace _Bootcamp.Scripts.Interactable
 {
-    public class InteractableController : MonoBehaviour
+    public class InteractableController : MonoBehaviour, IInteractable
     {
         public void Do()
         {

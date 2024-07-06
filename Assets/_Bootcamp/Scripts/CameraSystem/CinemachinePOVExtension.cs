@@ -8,8 +8,8 @@ namespace _Bootcamp.Scripts.CameraSystem
     public class CinemachinePovExtension : CinemachineExtension
     {
         [SerializeField] private float _clampAngle = 80, _horizontalSpeed = 10, _verticalSpeed = 10;
-
-        [Inject] private PlayerInputController _inputController;
+        [SerializeField] private PlayerInputController _inputController;
+        [SerializeField] private PlayerMovement _playerMovement;
 
         private Vector3 _startingRot;
 
@@ -23,7 +23,7 @@ namespace _Bootcamp.Scripts.CameraSystem
         {
             if (!vcam.Follow || stage != CinemachineCore.Stage.Aim || _inputController is null) return;
 
-            var deltaInput = _inputController.GetLookDelta();
+            var deltaInput = !_playerMovement.canMove ? Vector2.zero : _inputController.GetLookDelta();
         
             _startingRot.x += deltaInput.x * _horizontalSpeed * deltaTime;
             _startingRot.y += deltaInput.y * _verticalSpeed * deltaTime;
