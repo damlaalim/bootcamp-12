@@ -25,8 +25,8 @@ Unity 12
       <td>Dilara Hakyoldaş</td>
       <td>Developer</td>
       <td>
-        <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
+        <a href="https://github.com/dilarahakyoldas"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
+        <a href="https://www.linkedin.com/in/dilarahakyoldas/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
         <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
@@ -36,7 +36,7 @@ Unity 12
       <td>Developer</td>
       <td>
         <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
+        <a href="https://www.linkedin.com/in/berkay-sağdıç-b54754201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
         <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
@@ -46,8 +46,8 @@ Unity 12
       <td>Product Owner</td>
       <td>
         <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
+        <a href="https://www.linkedin.com/in/buğra-mustafa-kasarcı-823967248/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
+        <a href="https://www.instagram.com/noitsswizz/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
     <tr>
@@ -55,9 +55,9 @@ Unity 12
       <td>Damla Alim</td>
       <td>Scrum Master</td>
       <td>
-        <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
+        <a href="https://github.com/damlaalim"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
+        <a href="https://www.linkedin.com/in/damlaalim/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
+        <a href="https://www.instagram.com/lunaspatium/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
   </tbody>
@@ -128,7 +128,7 @@ Unity 12
 </details>
 
 ## Product Backlog URL
-<a href = "https://miro.com/app/board/uXjVK39cXO8=/?share_link_id=103924746273" target ="_blank">Unity Takım - 12 Miro Backlog Board</a>
+<a href = "https://miro.com/app/board/uXjVK39cXO8=/?share_link_id=103924746273" target ="blank">Unity Takım - 12 Miro Backlog Board</a>
 ## Sprintler
 
 <details>
@@ -136,33 +136,56 @@ Unity 12
       <details>
         <summary><h3>Sprint Planning & Sprint Process</h3></summary>
   
-  * <b>Sprint içinde tamamlanması tahmin edilen puan:</b>
-  * <b>Puan tamamlama mantığı:</b>
-  * <b>Daily Scrum:</b> Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir.
+  * <b>Sprint içinde tamamlanması tahmin edilen puan:</b> 45
+  * <b>Puan tamamlama mantığı:</b> İlk Sprint için bitirilmesi istenilen puan sayısı 45 olarak belirlenmiştir ve hedefe ulaşılmıştır.
+  * <b>Daily Scrum:</b> Daily Scrum toplantılarının istisnalar haricinde Whatsapp üzerinden yapılmasına karar verilmiştir.
+    <details>
+      <summary><h3>Daily Scrum Görselleri</h3></summary>
+      
+      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/560fdcff-1c91-4158-9172-1336ff6be8da)
+    ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/611123e1-7e0a-492b-978b-1cacff512032)
+    ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/9aaabd17-ae48-475b-943e-7583185ffa34)
+      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/4e877080-b9e9-4f1f-b16e-6ee37d32ebb5)
+
+    </details>
     <details>
       <summary><h3>Sprint Board Updates (Screenshots)</h3></summary>
       
-      (https://github.com/damlaalim/bootcamp-12/assets/90152361/fb4cb2f3-7aad-45c8-bb5e-216489f79a8c)
-      (https://github.com/damlaalim/bootcamp-12/assets/90152361/f91c302a-0dc5-420f-81df-1494c0558b17)
-      (https://github.com/damlaalim/bootcamp-12/assets/90152361/aa1cdddc-0ab9-4217-b7ed-eba5bcd2f79d)
+      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/edbb8f3e-6593-4e2d-8ded-90778faa8b64)
+![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/21e23e86-b099-4094-8f90-c0abe3b5bc83)
+![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/0f7f9a2f-0eeb-4d23-884a-1b22eea79e07)
+
 
       ## Tasklerde Kullandığımız Etkiketler:
-      (https://github.com/damlaalim/bootcamp-12/assets/90152361/5948345c-b349-447a-a25d-5ed16bf47839)
+      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/f0f668d1-d77d-4515-8865-8a26d3338365)
 
+      
     </details>
+    <details>
+        <summary><h3>Ürün Görselleri</h3></summary>
+      
+      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/35f1838b-6d9e-4c3a-8e2f-9e8640362031)
+      
+      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/a4d5716f-8166-475d-a2da-02b037f73b96)
+    
+    https://github.com/damlaalim/bootcamp-12/assets/90152361/97469b3f-c7ab-4c3e-b17d-d9bfde54ba95
+    
+      </details>
     </details>
     <details>
       <summary><h3> Sprint Review & Sprint Retrospective</h3></summary>
       
-      * <b>Sprint Review Katılımcıları:</b> 
+      * <b>Sprint Review Katılımcıları:</b> Damla Alim, Burak Arslan, Berkay Sağdıç, Buğra Mustafa Kasarcı, Dilara Hakyoldaş 
       * <b>Sprint Review:</b> Alınan Kararlar,
-        1. asd
-        2. asd
+        1. Oyunun temasında renklendirmenin ve ışıklandırmanın nasıl olacağı tartışılmıştır.
+        2. Level design ve modelleme konusunda görevlendirmeler yapılmıştır.
+        3. Daily scrumlar hakkında konuşuldu.
+        4. Taskler daha detaylandırılabilir.
 
       * <b>Sprint Retrospective:</b>
-        1. asd
-        2. asd 
-  
+        1. Ekip içi iletişimde temel uygulama olarak discordun kullanılması amaçlanmıştır.
+        2. Daha sıkı çalışılması gerektiği vurgulanmıştır.
+        3. Görev dağılımları tekrardan yapılmıştır.
       
     </details>
 </details>
