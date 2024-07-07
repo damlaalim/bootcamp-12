@@ -127,38 +127,44 @@ Unity 12
 
 </details>
 
-
+## Product Backlog URL
+<a href = "https://miro.com/app/board/uXjVK39cXO8=/?share_link_id=103924746273" target ="_blank">Unity Takım - 12 Miro Backlog Board</a>
 ## Sprintler
 
 <details>
   <summary><h3>Sprint 1 (24/06/24 - 07/07/24)</h3></summary>
-  <details>
-    <summary>Sprint Review</summary>
-  </details>
-  <details>
-    <summary>Sprint Retrospective</summary>
-  </details>
-  <details>
-    <summary>Ürün Durumu (Görseller)</summary>
-  </details>
+      <details>
+        <summary><h3>Sprint Planning & Sprint Process</h3></summary>
+  
+  * <b>Sprint içinde tamamlanması tahmin edilen puan:</b>
+  * <b>Puan tamamlama mantığı:</b>
+  * <b>Daily Scrum:</b> Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir.
+      <details>
+        <summary><h3>Sprint Board Updates</h3></summary>
+      </details>
+    </details>
+    <details>
+      <summary><h3> Sprint Review & Sprint Retrospective</h3></summary>
+      
+      * <b>Sprint Review Katılımcıları:</b> 
+      * <b>Sprint Review:</b> Alınan Kararlar,
+        1. asd
+        2. asd
+
+      * <b>Sprint Retrospective:</b>
+        1. asd
+        2. asd 
+  
+      
+    </details>
 </details>
 
 <details>
   <summary><h3>Sprint 2 (08/07/24 - 21/07/24)</h3></summary>
-  <details>
-    <summary>Sprint Review</summary>
-  </details>
-  <details>
-    <summary>Sprint Retrospective</summary>
-  </details>
+  
 </details>
 
 <details>
   <summary><h3>Sprint 3 (22/07/24 - 02/08/24)</h3></summary>
-  <details>
-    <summary>Sprint Review</summary>
-  </details>
-  <details>
-    <summary>Sprint Retrospective</summary>
-  </details>
+  
 </details>
