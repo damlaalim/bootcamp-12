@@ -12,6 +12,7 @@ namespace _Bootcamp.Scripts.Player
         private Camera _mainCam;
         private PlayerInputController _playerInputController;
         private PlayerMovement _playerMovement;
+        private IInteractable _lastInteractable;
 
         [Inject] private InGameCanvas _inGameCanvas;
 
@@ -45,9 +46,20 @@ namespace _Bootcamp.Scripts.Player
             _playerMovement.canMove = true;
 
             var ray = _mainCam.ScreenPointToRay(Input.mousePosition);
-            var interactable = Physics.Raycast(ray, out var hit, _maxDistance) && hit.transform.TryGetComponent<IInteractable>(out _);
+            var canInteractable = Physics.Raycast(ray, out var hit, _maxDistance) && hit.transform.TryGetComponent<IInteractable>(out _);
 
-            _inGameCanvas.ShowInteractionText(interactable);
+            // _inGameCanvas.ShowInteractionText(canInteractable);
+
+            if (canInteractable && hit.transform.TryGetComponent<IInteractable>(out var _interactable))
+            {
+                _lastInteractable?.ShowCanvas(false);
+                _interactable.ShowCanvas(true);
+                _lastInteractable = _interactable;
+            }
+            else if (!canInteractable && _lastInteractable is not null)
+            {
+                _lastInteractable.ShowCanvas(false);
+            }
         }
         
         private void Interacted()

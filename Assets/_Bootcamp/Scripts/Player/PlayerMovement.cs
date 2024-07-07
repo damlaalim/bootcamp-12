@@ -20,6 +20,7 @@ namespace _Bootcamp.Scripts.Player
             _characterController = GetComponent<CharacterController>();
 
             _cameraTransform = Camera.main.transform;
+            canMove = true;
         }
 
         private void Update()
