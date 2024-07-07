@@ -139,9 +139,17 @@ Unity 12
   * <b>Sprint içinde tamamlanması tahmin edilen puan:</b>
   * <b>Puan tamamlama mantığı:</b>
   * <b>Daily Scrum:</b> Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir.
-      <details>
-        <summary><h3>Sprint Board Updates</h3></summary>
-      </details>
+    <details>
+      <summary><h3>Sprint Board Updates (Screenshots)</h3></summary>
+      
+      (https://github.com/damlaalim/bootcamp-12/assets/90152361/fb4cb2f3-7aad-45c8-bb5e-216489f79a8c)
+      (https://github.com/damlaalim/bootcamp-12/assets/90152361/f91c302a-0dc5-420f-81df-1494c0558b17)
+      (https://github.com/damlaalim/bootcamp-12/assets/90152361/aa1cdddc-0ab9-4217-b7ed-eba5bcd2f79d)
+
+      ## Tasklerde Kullandığımız Etkiketler:
+      (https://github.com/damlaalim/bootcamp-12/assets/90152361/5948345c-b349-447a-a25d-5ed16bf47839)
+
+    </details>
     </details>
     <details>
       <summary><h3> Sprint Review & Sprint Retrospective</h3></summary>
