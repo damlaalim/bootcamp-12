@@ -179,13 +179,12 @@ Unity 12
       * <b>Sprint Review:</b> Alınan Kararlar,
         1. Oyunun temasında renklendirmenin ve ışıklandırmanın nasıl olacağı tartışılmıştır.
         2. Level design ve modelleme konusunda görevlendirmeler yapılmıştır.
-        3. Daily scrumlar hakkında konuşuldu.
-        4. Taskler daha detaylandırılabilir.
+        3. Daily scrumlar hakkında konuşulmuştur.
+        4. Tasklerin daha detaylandırılacabileceği konuşulmuştur.
 
       * <b>Sprint Retrospective:</b>
         1. Ekip içi iletişimde temel uygulama olarak discordun kullanılması amaçlanmıştır.
         2. Daha sıkı çalışılması gerektiği vurgulanmıştır.
-        3. Görev dağılımları tekrardan yapılmıştır.
       
     </details>
 </details>
