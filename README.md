@@ -37,7 +37,7 @@ Unity 12
       <td>
         <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
         <a href="https://www.linkedin.com/in/berkay-sağdıç-b54754201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
+        <a href="https://www.instagram.com/berkaysgdc?igsh=YXcza25laHU2OXQ3" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
     <tr>
