@@ -27,7 +27,7 @@ Unity 12
       <td>
         <a href="https://github.com/dilarahakyoldas"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
         <a href="https://www.linkedin.com/in/dilarahakyoldas/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
+        <a href="https://www.instagram.com/noitsswizz/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
     <tr>
@@ -47,7 +47,7 @@ Unity 12
       <td>
         <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
         <a href="https://www.linkedin.com/in/buğra-mustafa-kasarcı-823967248/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
-        <a href="https://www.instagram.com/noitsswizz/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
+        <a href="https://www.instagram.com/azazel_sann?igsh=MWt1cjRsYmxubDc1eA==" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
     <tr>
