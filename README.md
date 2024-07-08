@@ -150,10 +150,12 @@ Unity 12
     </details>
     <details>
       <summary><h3>Sprint Board Updates (Screenshots)</h3></summary>
+      Sprint Task Puanı 100 puan olarak belirlenmiştir.
       
-      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/edbb8f3e-6593-4e2d-8ded-90778faa8b64)
-![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/21e23e86-b099-4094-8f90-c0abe3b5bc83)
-![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/0f7f9a2f-0eeb-4d23-884a-1b22eea79e07)
+     ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/8b1d9b8f-07c7-4a51-ae90-e20cd8120fb0)
+![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/3d5d1618-7e00-411d-adda-9456aced7252)
+![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/f78075c5-3568-4d83-a9d8-64370b773e0c)
+
 
 
       ## Tasklerde Kullandığımız Etkiketler:
