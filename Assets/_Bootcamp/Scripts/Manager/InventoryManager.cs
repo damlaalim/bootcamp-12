@@ -1,37 +1,52 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
-    public List<GameObject> inventoryObjects = new List<GameObject>();
-    public void UseObject(GameObject usedObject)
+    public static InventoryManager Instance;
+    public List<Item> Items = new List<Item>();
+
+    public Transform ItemContent;
+    public GameObject InventoryItem;
+    private void Awake()
     {
-        foreach (GameObject obj in inventoryObjects)
+        if (Instance != null && Instance != this)
         {
-            obj.SetActive(true);
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
     }
 
-    public void StopUsingObject(GameObject usedObject)
+    public void Add(Item item)
     {
-        foreach (GameObject obj in inventoryObjects)
-        {
-            obj.SetActive(false);
-        }
+        Items.Add(item);
     }
 
-    void Update()
+    public void Remove(Item item)
     {
-        //kullan
-        if (Input.GetKeyDown(KeyCode.Alpha0))
+        Items.Remove(item);
+    }
+
+    public void ListItems()
+    {
+        foreach (Transform item in ItemContent)
         {
-            UseObject(null); 
+            Destroy(item.gameObject);
         }
-        //bırak
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+
+        foreach (var item in Items)
         {
-            StopUsingObject(null); 
+            GameObject obj = Instantiate(InventoryItem, ItemContent);
+            var itemName = obj.transform.Find("ItemName").GetComponent<Text>();
+            var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
+
+            itemName.text = item.itemName;
+            itemIcon.sprite = item.icon;
         }
     }
 }
