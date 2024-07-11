@@ -5,6 +5,7 @@ namespace _Bootcamp.Scripts.Player
 {
     public class PlayerMovement : MonoBehaviour
     {
+        public bool canMove;
         [SerializeField] private float _sprintMultiplier, _moveSpeed, _gravityValue = -9.81f, _jumpHeight = 1.0f;
         
         private PlayerInputController _playerInput;
@@ -19,6 +20,7 @@ namespace _Bootcamp.Scripts.Player
             _characterController = GetComponent<CharacterController>();
 
             _cameraTransform = Camera.main.transform;
+            canMove = true;
         }
 
         private void Update()
@@ -28,6 +30,8 @@ namespace _Bootcamp.Scripts.Player
 
         private void Move()
         {
+            if (!canMove) return;
+            
             _groundedPlayer = _characterController.isGrounded;
             if (_groundedPlayer && _playerVelocity.y < 0) _playerVelocity.y = 0f;
 
