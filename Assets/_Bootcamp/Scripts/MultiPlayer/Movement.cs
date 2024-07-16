@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Movement : NetworkBehaviour
 {
-    public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
+    public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>(writePerm: NetworkVariableWritePermission.Server);
+
     public float speed = 5f;
 
     private void Start()
@@ -21,6 +22,10 @@ public class Movement : NetworkBehaviour
         if (IsOwner)
         {
             Move();
+        }
+        else
+        {
+            UpdateClientPositionRequestServerRpc();
         }
     }
 
@@ -41,7 +46,13 @@ public class Movement : NetworkBehaviour
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         transform.position += move * speed * Time.deltaTime;
-        Position.Value = transform.position;
+        UpdatePositionServerRpc(transform.position);
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    void UpdatePositionServerRpc(Vector3 newPosition, ServerRpcParams rpcParams = default)
+    {
+        Position.Value = newPosition;
     }
 
     public void Move()
@@ -58,11 +69,17 @@ public class Movement : NetworkBehaviour
         }
     }
 
-    [ServerRpc]
+    [ServerRpc(RequireOwnership = false)]
     void submitPositionRequestServerRpc(ServerRpcParams rpcParams = default)
     {
         var randomPosition = GetRandomPositionOnPlane();
         Position.Value = randomPosition;
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    void UpdateClientPositionRequestServerRpc(ServerRpcParams rpcParams = default)
+    {
+        Position.Value = transform.position;
     }
 
     static Vector3 GetRandomPositionOnPlane()

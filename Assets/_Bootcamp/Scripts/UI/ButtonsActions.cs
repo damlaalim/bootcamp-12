@@ -9,7 +9,6 @@ public class ButtonsActions : MonoBehaviour
 {
 
     private NetworkManager NetworkManager;
-    public TextMeshProUGUI text;
     void Start()
     {
         NetworkManager = GetComponentInParent<NetworkManager>();    
