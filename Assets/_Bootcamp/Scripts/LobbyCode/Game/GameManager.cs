@@ -5,32 +5,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private void Start()
+     void Start()
     {
-        // NetworkManager.Singleton'ın null olup olmadığını kontrol edin
-        if (NetworkManager.Singleton == null)
-        {
-            Debug.LogError("NetworkManager.Singleton is null. Make sure there is a NetworkManager component in the scene.");
-            return;
-        }
-
-        // UnityTransport bileşeninin null olup olmadığını kontrol edin
-        UnityTransport transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-        if (transport == null)
-        {
-            Debug.LogError("UnityTransport component is not attached to the NetworkManager.");
-            return;
-        }
-
+        
         NetworkManager.Singleton.NetworkConfig.ConnectionApproval = true;
 
         if (_Bootcamp.Scripts.LobbyCode.GameFramework.Manager.RelayManager.Instance.IsHost)
         {
             NetworkManager.Singleton.ConnectionApprovalCallback = ConnectionApproval;
+            
             (byte[] allocationId, byte[] key, byte[] connectionData, string ip, int port) = _Bootcamp
                 .Scripts.LobbyCode.GameFramework.Manager.RelayManager.Instance.GetHostConnectionInfo();
-
-            transport.SetHostRelayData(ip, (ushort)port, allocationId, key, connectionData, true);
+            
+            
+            NetworkManager.Singleton.GetComponent<UnityTransport>().SetHostRelayData(ip,(ushort)port, allocationId, key, connectionData, true);
             NetworkManager.Singleton.StartHost();
         }
         else
@@ -38,7 +26,7 @@ public class GameManager : MonoBehaviour
             (byte[] allocationId, byte[] key, byte[] connectionData, byte[] hostConnectionData, string ip, int port) = _Bootcamp
                 .Scripts.LobbyCode.GameFramework.Manager.RelayManager.Instance.GetClientConnectionInfo();
 
-            transport.SetClientRelayData(ip, (ushort)port, allocationId, key, connectionData, hostConnectionData, true);
+            NetworkManager.Singleton.GetComponent<UnityTransport>().SetClientRelayData(ip, (ushort)port, allocationId, key, connectionData, hostConnectionData, true);
             NetworkManager.Singleton.StartClient();
         }
     }
