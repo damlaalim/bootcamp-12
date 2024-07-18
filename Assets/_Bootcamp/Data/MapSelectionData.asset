@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Maps:
   - MapThumbnail: {r: 0.051397286, g: 0.11479834, b: 0.7264151, a: 0}
-    MapName: Blue Map
-    SceneName: BlueScene
+    MapName: Open Scene
+    SceneName: OpenScene
   - MapThumbnail: {r: 0, g: 1, b: 0.040144444, a: 0}
     MapName: Green Map
     SceneName: GreenScene
