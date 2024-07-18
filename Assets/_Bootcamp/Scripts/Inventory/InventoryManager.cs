@@ -1,14 +1,20 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using ModestTree;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
-    public List<Item> Items = new List<Item>();
+    public Item[] Items;
 
     public Transform ItemContent;
     public GameObject InventoryItem;
+
+    [SerializeField] private int _itemCapacity;
+    
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -22,14 +28,30 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        // başta belirlenen kapasitede bir array oluşturuyor
+        Items = new Item[_itemCapacity];
+    }
+
     public void Add(Item item)
     {
-        Items.Add(item);
+        // items içerisinde yer varsa ekliyor 
+
+        for (var i = 0; i < Items.Length; i++)
+        {
+            if (Items[i] != null) continue;
+            
+            Items[i] = item;
+            // item.GameObject().transform.do
+            break;
+        }
     }
 
     public void Remove(Item item)
     {
-        Items.Remove(item);
+        var index = Items.IndexOf(item);
+        Items[index] =  null;
     }
 
     public void ListItems()
