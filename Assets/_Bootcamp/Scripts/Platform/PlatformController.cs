@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections;
+using _Bootcamp.Scripts.MyExtensions;
+using DG.Tweening;
 using UnityEngine;
 using Zenject;
 
@@ -10,9 +12,17 @@ namespace _Bootcamp.Scripts.Platform
         public bool isTrap;
         [SerializeField] private bool _platformIsTimeLimited;
         [SerializeField] private float _countdownDelay;
-
+        [SerializeField] private MeshRenderer _mesh;
+        [SerializeField] private Collider _collider;
+        [SerializeField] private float _initPosY;
+        
         [Inject] private PlatformManager _platformManager;
         private bool _isShow, _countdownIsStarted;
+
+        private void Awake()
+        {
+            _mesh.enabled = _collider.enabled = false;
+        }
 
         public void ShowPlatform()
         {
@@ -20,7 +30,10 @@ namespace _Bootcamp.Scripts.Platform
 
             _isShow = true;
             
-            // animasyon
+            _mesh.enabled = _collider.enabled = true;
+            var targetPos = transform.position;
+            transform.position = targetPos.With(y: _initPosY);
+            transform.DOMoveY(targetPos.y, .2f);
         }
 
         private void FallPlatform()

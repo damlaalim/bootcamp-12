@@ -9,6 +9,12 @@ namespace _Bootcamp.Scripts.Platform
     {
         [SerializeField] private List<PlatformController> _platformList;
 
+        private void Start()
+        {
+            if (_platformList.Count > 0)
+                _platformList[0].ShowPlatform();
+        }
+
         public void PlatformTriggered(PlatformController platform)
         {
             var index = _platformList.FindIndex(controller => controller == platform);

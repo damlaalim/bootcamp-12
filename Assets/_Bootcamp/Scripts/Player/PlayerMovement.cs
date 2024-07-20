@@ -6,6 +6,7 @@ namespace _Bootcamp.Scripts.Player
 {
     public class PlayerMovement : MonoBehaviour
     {
+        public Transform initPos;
         public bool canMove;
         [SerializeField] private float _sprintMultiplier, _moveSpeed, _gravityValue = -9.81f, _jumpHeight = 1.0f;
         
@@ -47,6 +48,11 @@ namespace _Bootcamp.Scripts.Player
 
             _playerVelocity.y += _gravityValue * Time.deltaTime;
             _characterController.Move(_playerVelocity * Time.deltaTime);
+        }
+
+        public void SpawnInitPos()
+        {
+            transform.position = initPos.position;
         }
     }
 }
