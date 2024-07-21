@@ -129,6 +129,9 @@ Unity 12
 
 ## Product Backlog URL
 <a href = "https://miro.com/app/board/uXjVK39cXO8=/?share_link_id=103924746273" target ="blank">Unity Takım - 12 Miro Backlog Board</a>
+## Game Design Document URL
+<a href = "https://docs.google.com/document/d/1C1wG88VrsLhP53gUKr8G70yUAR4o-WW5Pq4IXdTWvxo/edit?usp=sharing" target ="blank">Unity Takım - 12 GDD</a>
+
 ## Sprintler
 
 <details>
@@ -193,7 +196,39 @@ Unity 12
 
 <details>
   <summary><h3>Sprint 2 (08/07/24 - 21/07/24)</h3></summary>
+  <details>
+        <summary><h3>Sprint Planning & Sprint Process</h3></summary>
   
+  * <b>Sprint içinde tamamlanması tahmin edilen puan:</b> 45
+  * <b>Puan tamamlama mantığı:</b> İlk Sprint için bitirilmesi istenilen puan sayısı 45 olarak belirlenmiştir ve hedefe ulaşılmıştır.<br>
+    <details>
+      <summary><h3>Daily Scrum Görselleri</h3></summary>
+      
+
+    </details>
+    <details>
+      <summary><h3>Sprint Board Updates (Screenshots)</h3></summary>
+      Sprint Task Puanı * puan olarak belirlenmiştir.
+      
+      
+    </details>
+    <details>
+        <summary><h3>Ürün Görselleri</h3></summary>
+      
+    
+      </details>
+    </details>
+    <details>
+      <summary><h3> Sprint Review & Sprint Retrospective</h3></summary>
+      
+      * <b>Sprint Review Katılımcıları:</b> Damla Alim, Burak Arslan, Berkay Sağdıç, Buğra Mustafa Kasarcı, Dilara Hakyoldaş 
+      * <b>Sprint Review:</b> Alınan Kararlar,
+        1. 
+
+      * <b>Sprint Retrospective:</b>
+        1. -
+      
+    </details>
 </details>
 
 <details>
