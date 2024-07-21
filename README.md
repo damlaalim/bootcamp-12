@@ -204,24 +204,38 @@ Unity 12
     <details>
       <summary><h3>Daily Scrum Görselleri</h3></summary>
       
+      ![1721593376936](https://github.com/user-attachments/assets/7782dcd3-9646-4a2d-ab23-6857f0583484)
+    ![1721593376930](https://github.com/user-attachments/assets/cb69fb55-4e75-4d78-8d82-ed3a411ecb4a)
+    ![1721593376923](https://github.com/user-attachments/assets/51496c7c-8b27-48db-ac59-8b37677837f2)
+    ![1721593376916](https://github.com/user-attachments/assets/e9e38b2b-79ed-4c94-b943-619890836032)
+
 
     </details>
     <details>
       <summary><h3>Sprint Board Updates (Screenshots)</h3></summary>
-      Sprint Task Puanı * puan olarak belirlenmiştir.
+      Sprint Task Puanı 87 puan olarak belirlenmiştir. 82 puan tamamlanabilmiştir.
+
+      ![image](https://github.com/user-attachments/assets/76e51f18-5750-4f08-a482-d3dc75a882ca)
+![image](https://github.com/user-attachments/assets/26baa4fb-c932-4605-93d3-cd12ae70afe6)
+![image](https://github.com/user-attachments/assets/55897e93-aa12-4882-b79d-1f3756a8fc34)
+
       
       
     </details>
     <details>
         <summary><h3>Ürün Görselleri</h3></summary>
-      
-    
+        
+    ![2](https://github.com/user-attachments/assets/aeeba003-5de6-4ee4-b5e3-07b5e5b32c39)
+![1](https://github.com/user-attachments/assets/680124c0-8b52-4216-9d65-0e5f6769504e)
+![8d7f5258-2182-4261-bf12-fa1edb285635](https://github.com/user-attachments/assets/e46e2c5a-05f2-4699-9d84-763502b47811)
+![2f8280d6-18c7-4b29-bdfc-fe154190bfbf](https://github.com/user-attachments/assets/67288e06-69d7-4fb2-aea6-7605418c563d)
+
       </details>
     </details>
     <details>
       <summary><h3> Sprint Review & Sprint Retrospective</h3></summary>
       
-      * <b>Sprint Review Katılımcıları:</b> Damla Alim, Burak Arslan, Berkay Sağdıç, Buğra Mustafa Kasarcı, Dilara Hakyoldaş 
+      * <b>Sprint Review Katılımcıları:</b> Damla Alim, Berkay Sağdıç, Buğra Mustafa Kasarcı
       * <b>Sprint Review:</b> Alınan Kararlar,
         1. 
 
