@@ -1,4 +1,4 @@
-## Takım İsmi
+![Screenshot_2024-07-07_212816](https://github.com/user-attachments/assets/3c4a7992-6036-44e2-9e87-6e6655ed8599)## Takım İsmi
 Unity 12 
 ## Takım Rolleri
 <table>
@@ -231,6 +231,7 @@ Unity 12
 ![2f8280d6-18c7-4b29-bdfc-fe154190bfbf](https://github.com/user-attachments/assets/67288e06-69d7-4fb2-aea6-7605418c563d)
 ![image](https://github.com/user-attachments/assets/7dc88104-0486-4c5d-b1b9-23eb26de0b05)
 ![Ekran görüntüsü 2024-07-21 221704](https://github.com/user-attachments/assets/942816cb-9cd8-49c8-bbd8-5afe988b2dbe)
+![Screenshot_2024-07-07_212816](https://github.com/user-attachments/assets/02e70129-dcb7-486a-84b9-b78995687a3c)
 
       </details>
     </details>
