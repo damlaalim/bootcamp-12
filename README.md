@@ -142,22 +142,16 @@ Unity 12
   * <b>Sprint içinde tamamlanması tahmin edilen puan:</b> 45
   * <b>Puan tamamlama mantığı:</b> İlk Sprint için bitirilmesi istenilen puan sayısı 45 olarak belirlenmiştir ve hedefe ulaşılmıştır.
   * <b>Daily Scrum:</b> Daily Scrum toplantılarının istisnalar haricinde Whatsapp üzerinden yapılmasına karar verilmiştir.
-    <details>
-      <summary><h3>Daily Scrum Görselleri</h3></summary>
-      
-      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/560fdcff-1c91-4158-9172-1336ff6be8da)
-    ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/611123e1-7e0a-492b-978b-1cacff512032)
-    ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/9aaabd17-ae48-475b-943e-7583185ffa34)
-      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/4e877080-b9e9-4f1f-b16e-6ee37d32ebb5)
 
-    </details>
+    ## Daily Scrum Görselleri
+
+      <a href="https://imgur.com/a/znl8tDg">Daily Scrum Görselleri</a>
+
     <details>
       <summary><h3>Sprint Board Updates (Screenshots)</h3></summary>
       Sprint Task Puanı 100 puan olarak belirlenmiştir.
       
-     ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/8b1d9b8f-07c7-4a51-ae90-e20cd8120fb0)
-![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/3d5d1618-7e00-411d-adda-9456aced7252)
-![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/f78075c5-3568-4d83-a9d8-64370b773e0c)
+     <a href="https://imgur.com/a/6f7ivHv">Sprint Board Görselleri</a>
 
 
 
@@ -166,17 +160,11 @@ Unity 12
 
       
     </details>
-    <details>
-        <summary><h3>Ürün Görselleri</h3></summary>
       
-      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/35f1838b-6d9e-4c3a-8e2f-9e8640362031)
-      
-      ![image](https://github.com/damlaalim/bootcamp-12/assets/90152361/a4d5716f-8166-475d-a2da-02b037f73b96)
-    
-    https://github.com/damlaalim/bootcamp-12/assets/90152361/97469b3f-c7ab-4c3e-b17d-d9bfde54ba95
-    
-      </details>
+      ## Ürün Görselleri
+      <a href="https://imgur.com/a/jaw2WMq" target="_blank">Ürün Görselleri</a>
     </details>
+
     <details>
       <summary><h3> Sprint Review & Sprint Retrospective</h3></summary>
       
