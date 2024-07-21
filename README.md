@@ -1,4 +1,4 @@
-## Takım İsmi
+![Ekran görüntüsü 2024-07-21 221704](https://github.com/user-attachments/assets/684206b9-efc2-462f-a00c-57d5e2eca15b)## Takım İsmi
 Unity 12 
 ## Takım Rolleri
 <table>
@@ -229,6 +229,8 @@ Unity 12
 ![1](https://github.com/user-attachments/assets/680124c0-8b52-4216-9d65-0e5f6769504e)
 ![8d7f5258-2182-4261-bf12-fa1edb285635](https://github.com/user-attachments/assets/e46e2c5a-05f2-4699-9d84-763502b47811)
 ![2f8280d6-18c7-4b29-bdfc-fe154190bfbf](https://github.com/user-attachments/assets/67288e06-69d7-4fb2-aea6-7605418c563d)
+![image](https://github.com/user-attachments/assets/7dc88104-0486-4c5d-b1b9-23eb26de0b05)
+![Ekran görüntüsü 2024-07-21 221704](https://github.com/user-attachments/assets/942816cb-9cd8-49c8-bbd8-5afe988b2dbe)
 
       </details>
     </details>
@@ -237,10 +239,13 @@ Unity 12
       
       * <b>Sprint Review Katılımcıları:</b> Damla Alim, Berkay Sağdıç, Buğra Mustafa Kasarcı
       * <b>Sprint Review:</b> Alınan Kararlar,
-        1. 
+        1. Aralıksız her gün daily scrum yapılması ve ekibin bu şekilde motive edilmesi - iletişiminin güçlendirilmesine karar verilmiştir.
+        2. Görevlerin önceliklendirilmesi yapılmıştır.
+        3. Backlog güncellenmiştir.
 
       * <b>Sprint Retrospective:</b>
-        1. -
+        1. Daha sıkı çalışılması gerektiği konuşulmuştur.
+        2. Daha sık toplantı yapılmasına karar verilmiştir.
       
     </details>
 </details>
