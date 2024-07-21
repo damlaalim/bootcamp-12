@@ -1,4 +1,3 @@
-![Ekran görüntüsü 2024-07-21 221704](https://github.com/user-attachments/assets/684206b9-efc2-462f-a00c-57d5e2eca15b)## Takım İsmi
 Unity 12 
 ## Takım Rolleri
 <table>
