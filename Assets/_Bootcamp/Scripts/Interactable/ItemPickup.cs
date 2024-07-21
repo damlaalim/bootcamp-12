@@ -10,7 +10,7 @@ namespace _Bootcamp.Scripts.Interactable
         {
             if (Item != null)
             {
-                InventoryManager.Instance.Add(Item);
+                // InventoryManager.Instance.Add(Item);
                 Destroy(gameObject);
             }
         }

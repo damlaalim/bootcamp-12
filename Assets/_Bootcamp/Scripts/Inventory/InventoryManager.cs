@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using _Bootcamp.Scripts.Interactable;
 using ModestTree;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -8,7 +9,7 @@ using UnityEngine.UI;
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
-    public Item[] Items;
+    public CollectableController[] Items;
 
     public Transform ItemContent;
     public GameObject InventoryItem;
@@ -31,10 +32,10 @@ public class InventoryManager : MonoBehaviour
     private void Start()
     {
         // başta belirlenen kapasitede bir array oluşturuyor
-        Items = new Item[_itemCapacity];
+        Items = new CollectableController[_itemCapacity];
     }
 
-    public void Add(Item item)
+    public void Add(CollectableController item)
     {
         // items içerisinde yer varsa ekliyor 
 
@@ -48,7 +49,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void Remove(Item item)
+    public void Remove(CollectableController item)
     {
         var index = Items.IndexOf(item);
         Items[index] =  null;
@@ -67,8 +68,8 @@ public class InventoryManager : MonoBehaviour
             var itemName = obj.transform.Find("ItemName").GetComponent<Text>();
             var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
 
-            itemName.text = item.itemName;
-            itemIcon.sprite = item.icon;
+            itemName.text = item.data.itemName;
+            itemIcon.sprite = item.data.icon;
         }
     }
 }
