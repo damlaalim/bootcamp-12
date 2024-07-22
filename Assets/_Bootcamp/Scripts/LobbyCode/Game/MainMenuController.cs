@@ -53,6 +53,7 @@ namespace Game
          {
               _mainScreen.SetActive(false);
               _joinScreen.SetActive(true);
+              
          }
      
          private async void OnSubmitCOdeClicked()
@@ -66,8 +67,10 @@ namespace Game
              if (succeded)
              {
                  SceneManager.LoadSceneAsync("Lobby");
+                 
              }
          }
+         
      }
 }
 

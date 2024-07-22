@@ -16,9 +16,9 @@ MonoBehaviour:
   - MapThumbnail: {r: 0.051397286, g: 0.11479834, b: 0.7264151, a: 0}
     MapName: Open Scene
     SceneName: OpenScene
-  - MapThumbnail: {r: 0, g: 1, b: 0.040144444, a: 0}
-    MapName: Puzzle Deneme
-    SceneName: PuzzleDeneme
   - MapThumbnail: {r: 1, g: 0.07075471, b: 0.07075471, a: 0}
     MapName: Red Map
     SceneName: RedScene
+  - MapThumbnail: {r: 0, g: 1, b: 0.040144444, a: 0}
+    MapName: Puzzle Deneme
+    SceneName: PuzzleDeneme
