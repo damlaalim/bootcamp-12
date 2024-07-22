@@ -9,7 +9,7 @@ namespace Game
     public class LobbySpawner : MonoBehaviour
     {
         [SerializeField] private List<LobbyPlayer> _players;
-
+        
         private void OnEnable()
         {
             LobbyEvents.OnLobbyUpdated += OnLobbyUpdated;
