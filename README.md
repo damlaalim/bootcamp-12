@@ -188,7 +188,7 @@ Unity 12
         <summary><h3>Sprint Planning & Sprint Process</h3></summary>
   
   * <b>Sprint içinde tamamlanması tahmin edilen puan:</b> 45
-  * <b>Puan tamamlama mantığı:</b> İlk Sprint için bitirilmesi istenilen puan sayısı 45 olarak belirlenmiştir ve hedefe ulaşılmıştır.<br>
+  * <b>Puan tamamlama mantığı:</b> Sprint için bitirilmesi istenilen puan sayısı 45 olarak belirlenmiştir ve hedefe ulaşılmıştır.<br>
 
     ## Sprint Board Updates (Screenshots)
       Sprint Task Puanı 87 puan olarak belirlenmiştir. 82 puan tamamlanabilmiştir.
