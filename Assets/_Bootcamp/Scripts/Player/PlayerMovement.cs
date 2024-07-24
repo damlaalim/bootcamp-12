@@ -1,5 +1,6 @@
 using _Bootcamp.Scripts.MyExtensions;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 
 namespace _Bootcamp.Scripts.Player
@@ -8,13 +9,14 @@ namespace _Bootcamp.Scripts.Player
     {
         public bool canMove;
         [SerializeField] private float _sprintMultiplier, _moveSpeed, _gravityValue = -9.81f, _jumpHeight = 1.0f;
+        [SerializeField] private Animator _anim;
         
         private PlayerInputController _playerInput;
         private CharacterController _characterController;
-        private bool _groundedPlayer;
+        private bool _groundedPlayer, _isMove;
         private Vector3 _playerVelocity;
         private Transform _cameraTransform;
-        
+
         private void Start()
         {
             _playerInput = GetComponent<PlayerInputController>();
@@ -31,7 +33,19 @@ namespace _Bootcamp.Scripts.Player
 
         private void Move()
         {
-            if (!canMove) return;
+            if (!canMove)
+            {
+                if (_isMove)
+                    _anim.CrossFade("Idle", .1f);
+                _isMove = false;
+                return;
+            }
+
+            if (!_isMove)
+            {
+                _isMove = true;
+                _anim.CrossFade("Walk", .1f);
+            }
             
             _groundedPlayer = _characterController.isGrounded;
             if (_groundedPlayer && _playerVelocity.y < 0) _playerVelocity.y = 0f;
