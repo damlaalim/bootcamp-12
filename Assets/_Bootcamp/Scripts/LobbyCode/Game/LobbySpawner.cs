@@ -8,7 +8,7 @@ namespace Game
 {
     public class LobbySpawner : MonoBehaviour
     {
-        [SerializeField] private List<LobbyPlayer> _players;
+        [SerializeField] public List<LobbyPlayer> _players;
         
         private void OnEnable()
         {

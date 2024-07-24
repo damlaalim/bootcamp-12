@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using Unity.Netcode;
 using Unity.Netcode.Components;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Game
 {
@@ -11,6 +13,8 @@ namespace Game
         [SerializeField] private NetworkAnimator _animControl;
 
         private Dictionary<Switch, bool> _activeSwitches = new Dictionary<Switch, bool>();
+
+        
 
         public override void OnNetworkSpawn()
         {
@@ -44,9 +48,10 @@ namespace Game
                     return;
                 }
             }
-
             Debug.Log("Open the door");
             _animControl.SetTrigger("OpenDoor");
+         
         }
     }
+
 }

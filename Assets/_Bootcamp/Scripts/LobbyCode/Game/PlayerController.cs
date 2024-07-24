@@ -44,8 +44,6 @@ public class PlayerController : NetworkBehaviour
 
         _playerControl = new PlayerControl();
         _playerControl.Enable();
-        
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
