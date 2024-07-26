@@ -10,6 +10,7 @@ namespace _Bootcamp.Scripts.CameraSystem
         [SerializeField] private float _clampAngle = 80, _horizontalSpeed = 10, _verticalSpeed = 10;
         [SerializeField] private PlayerInputController _inputController;
         [SerializeField] private PlayerMovement _playerMovement;
+        [SerializeField] private Transform _playerBody;
 
         private Vector3 _startingRot;
 
@@ -32,6 +33,8 @@ namespace _Bootcamp.Scripts.CameraSystem
             _startingRot.y = Mathf.Clamp(_startingRot.y, -_clampAngle, _clampAngle);
             
             state.RawOrientation = Quaternion.Euler(-_startingRot.y, _startingRot.x, 0f);
+
+            _playerBody.localRotation = Quaternion.Euler(0f, _startingRot.x, 0f);
         }
 
         private float NormalizeAngle(float angle)
