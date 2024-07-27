@@ -23,7 +23,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("Puzzle1"); // Geçmek istediğiniz sahnenin adını buraya yazın
+                PhotonNetwork.LoadLevel("Puzzle1"); 
             }
         }
 
@@ -31,7 +31,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("PlatformOpenScene"); // Geçmek istediğiniz sahnenin adını buraya yazın
+                PhotonNetwork.LoadLevel("Puzzle2"); // Geçmek istediğiniz sahnenin adını buraya yazın
             }
         }
     }

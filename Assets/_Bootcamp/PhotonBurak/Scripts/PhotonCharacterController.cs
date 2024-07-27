@@ -2,7 +2,7 @@ using UnityEngine;
 using Photon.Pun;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-public class PhotonCharacterController : MonoBehaviour
+public class PhotonCharacterController : MonoBehaviourPunCallbacks
 {
    private PlayerInput _playerInput;
 
@@ -15,6 +15,8 @@ public class PhotonCharacterController : MonoBehaviour
    public GameObject CanvasName;
    public Text Name;
    
+   private bool isNearCube = false;
+
    
    private void Start()
    {
@@ -36,6 +38,29 @@ public class PhotonCharacterController : MonoBehaviour
        {
              MovePlayer();
        }
+       
+       if (isNearCube && Input.GetKeyDown(KeyCode.E))
+       {
+           Debug.Log("E tuşuna basıldı ve küpe yakın");
+           GameObject lightObject = GameObject.Find("LightObjectName"); // Işık nesnesinin adını buraya yazın
+           if (lightObject != null)
+           {
+               PhotonView photonView = lightObject.GetComponent<PhotonView>();
+               if (photonView != null)
+               {
+                   Debug.Log("PhotonView bulundu ve RPC çağrısı yapılacak");
+                   photonView.RPC("ChangeLightColor", RpcTarget.All);
+               }
+               else
+               {
+                   Debug.LogError("PhotonView bulunamadı");
+               }
+           }
+           else
+           {
+               Debug.LogError("LightObjectName adında nesne bulunamadı");
+           }
+       }
       
    }
 
@@ -47,11 +72,21 @@ public class PhotonCharacterController : MonoBehaviour
    }
    
    
-   
-   
-   
-   
-   
-   
+   private void OnTriggerEnter(Collider other)
+   {
+       if (other.gameObject.CompareTag("Cube"))
+       {
+           isNearCube = true;
+           Debug.Log("triggerlandı");
+       }
+   }
+
+   private void OnTriggerExit(Collider other)
+   {
+       if (other.gameObject.CompareTag("Cube"))
+       {
+           isNearCube = false;
+       }
+   }
    
 }
