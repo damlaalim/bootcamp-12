@@ -28,7 +28,7 @@ public class CreateAndJoin : MonoBehaviourPunCallbacks
 
    public override void OnJoinedRoom()
    {
-       PhotonNetwork.LoadLevel("GamePlay");
+       PhotonNetwork.LoadLevel("Office");
    }
    
    

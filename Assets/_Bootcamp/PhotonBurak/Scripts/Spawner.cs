@@ -7,15 +7,24 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject playerPrefab; // Karakter prefab'inin referansı
-    public Transform spawnPoint; // Karakterin spawn olacağı nokta
+    public Transform[] spawnPoints; // Karakterin spawn olacağı noktaların listesi
+    private static int nextSpawnPointIndex = 0;
+
     void Start()
     {
         if (PhotonNetwork.IsConnectedAndReady)
         {
-            PhotonNetwork.Instantiate(playerPrefab.name, spawnPoint.position, spawnPoint.rotation);
+            SpawnPlayer();
         }
-        
     }
 
-    
+    void SpawnPlayer()
+    {
+        // Sıradaki spawn noktasını seçin
+        Transform spawnPoint = spawnPoints[nextSpawnPointIndex];
+        nextSpawnPointIndex = (nextSpawnPointIndex + 1) % spawnPoints.Length;
+
+        // Karakteri belirlenen noktada spawn edin
+        PhotonNetwork.Instantiate(playerPrefab.name, spawnPoint.position, spawnPoint.rotation);
+    }
 }

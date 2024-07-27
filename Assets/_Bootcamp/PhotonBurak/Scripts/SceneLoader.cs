@@ -12,13 +12,26 @@ namespace _Bootcamp.PhotonBurak.Scripts
             {
                 ChangeScene();
             }
+
+            if (Input.GetKeyDown((KeyCode.L)))
+            {
+                ChangeScene2();
+            }
+        }
+
+        private void ChangeScene2()
+        {
+            if (PhotonNetwork.IsMasterClient)
+            {
+                PhotonNetwork.LoadLevel("Puzzle1"); // Geçmek istediğiniz sahnenin adını buraya yazın
+            }
         }
 
         void ChangeScene()
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("Gameplay2"); // Geçmek istediğiniz sahnenin adını buraya yazın
+                PhotonNetwork.LoadLevel("PlatformOpenScene"); // Geçmek istediğiniz sahnenin adını buraya yazın
             }
         }
     }

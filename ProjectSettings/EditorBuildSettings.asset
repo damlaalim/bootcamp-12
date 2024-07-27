@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/_Bootcamp/PhotonBurak/Scene/LoadingPhoton.unity
     guid: 9fb434619311dca46a43d61af033bc24
   - enabled: 1
-    path: Assets/_Bootcamp/PhotonBurak/Scene/LobbyPhoton.unity
+    path: Assets/_Bootcamp/PhotonBurak/Scene/LobbyScene.unity
     guid: 1d520eaa980c7d44c8e9c0f9f5475d37
   - enabled: 1
-    path: Assets/_Bootcamp/PhotonBurak/Scene/GamePlay.unity
+    path: Assets/_Bootcamp/PhotonBurak/Scene/PlatformOpenScene.unity
     guid: 4cfab2e49fdb1c0478c47fd2010c46e0
   - enabled: 1
-    path: Assets/_Bootcamp/PhotonBurak/Scene/gamePlay2.unity
+    path: Assets/_Bootcamp/PhotonBurak/Scene/Office.unity
     guid: ce1c6d7e55345b94db1f3998fd7b5491
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/Puzzle1.unity
+    guid: a7cbc668759717549988e6442c9fb8d2
   - enabled: 0
     path: Assets/_Bootcamp/Scenes/Dialogue system Test.unity
     guid: e2cefdaf4a524864e9ac872620a40830
