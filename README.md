@@ -81,7 +81,8 @@ Unity 12
   * 18-40 yaş arası gençler, yetişkinler, casual oyuncular<br>
   * Puzzle sevenler<br>
   * PC oyuncuları
-
+  ## Ticarileştirme Mekaniği
+  * Bu ürünün demosunun ücretsiz yayın platformlarında yayınlanmasına ve farklı bağış platformlarından oyunun geliştirilmesi için bağış toplanmasına karar verilmiştir.
 <details>
   <summary> 
     <h2>Konsept Geliştirme</h2>
