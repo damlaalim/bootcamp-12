@@ -24,7 +24,7 @@ namespace _Bootcamp.Scripts.CameraSystem
         {
             if (!vcam.Follow || stage != CinemachineCore.Stage.Aim || _inputController is null) return;
 
-            var deltaInput = !_playerMovement.canMove ? Vector2.zero : _inputController.GetLookDelta();
+            var deltaInput = _inputController.GetLookDelta();
         
             _startingRot.x += deltaInput.x * _horizontalSpeed * deltaTime;
             _startingRot.y += deltaInput.y * _verticalSpeed * deltaTime;
