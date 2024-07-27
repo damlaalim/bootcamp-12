@@ -4,6 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Lamp
+  - Mirror
+  - LightPoint
+  - SwitchOnFloor
+  - SwitchOnWall
   - Bullet
   - Cube
   layers:

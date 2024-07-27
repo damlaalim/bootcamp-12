@@ -17,7 +17,7 @@ Unity 12
       <td>Developer</td>
       <td>
         <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
-        <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
+        <a href="https://www.linkedin.com/in/burak-arslan-6844991b9/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
         <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>  <tr>
@@ -81,7 +81,8 @@ Unity 12
   * 18-40 yaş arası gençler, yetişkinler, casual oyuncular<br>
   * Puzzle sevenler<br>
   * PC oyuncuları
-
+  ## Ticarileştirme Mekaniği
+  * Bu ürünün demosunun ücretsiz yayın platformlarında yayınlanmasına ve farklı bağış platformlarından oyunun geliştirilmesi için bağış toplanmasına karar verilmiştir.
 <details>
   <summary> 
     <h2>Konsept Geliştirme</h2>
