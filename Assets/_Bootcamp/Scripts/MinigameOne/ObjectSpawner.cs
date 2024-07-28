@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour
 {
-    public List<GameObject> objectPrefabs;  // List of different object prefabs
+    public List<GameObject> objectPrefabs; 
     public Transform spawnPoint;
     public Transform finishPoint;
     public float initialSpawnRate = 1f;
@@ -24,7 +24,6 @@ public class ObjectSpawner : MonoBehaviour
         currentSpawnRate = initialSpawnRate;
         currentObjectSpeed = initialObjectSpeed;
 
-        // Spawn the first object instantly
         SpawnObject();
         nextSpawnTime = Time.time + 1f / currentSpawnRate;
     }
@@ -76,7 +75,6 @@ public class ObjectSpawner : MonoBehaviour
 
     void EndGame()
     {
-        Debug.Log("All objects reached the finish line. Game Over!");
-        // Implement game over logic here (e.g., show game over screen, stop the game, etc.)
+        //
     }
 }
