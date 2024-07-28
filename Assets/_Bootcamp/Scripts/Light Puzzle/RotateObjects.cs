@@ -40,7 +40,7 @@ public class RotateObjects : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(correctRotationOne);
 
         bool result = ApproximatelyEqual(currentRotation, targetRotation);
-        Debug.Log($"{gameObject.name} - Current Rotation (Quaternion): {currentRotation}, Target Rotation (Quaternion): {targetRotation}, Is Correct: {result}");
+        Debug.Log($"{gameObject.name} - Current Rotation: {currentRotation.eulerAngles}, Target Rotation: {correctRotationOne}, Is Correct: {result}");
         return result;
     }
 
@@ -50,7 +50,7 @@ public class RotateObjects : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(correctRotationTwo);
 
         bool result = ApproximatelyEqual(currentRotation, targetRotation);
-        Debug.Log($"{gameObject.name} - Current Rotation (Quaternion): {currentRotation}, Target Rotation (Quaternion): {targetRotation}, Is Correct: {result}");
+        Debug.Log($"{gameObject.name} - Current Rotation: {currentRotation.eulerAngles}, Target Rotation: {correctRotationTwo}, Is Correct: {result}");
         return result;
     }
 
