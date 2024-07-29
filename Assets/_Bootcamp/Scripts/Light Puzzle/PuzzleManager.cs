@@ -105,4 +105,17 @@ public class PuzzleManager : MonoBehaviour
         }
         return true;
     }
+
+    void UpdateActiveObjects()
+    {
+        foreach (var lamp in lamps)
+        {
+            lamp.UpdateActiveObjects();
+        }
+
+        foreach (var mirror in mirrors)
+        {
+            mirror.UpdateMirrorActiveObjects();
+        }
+    }
 }

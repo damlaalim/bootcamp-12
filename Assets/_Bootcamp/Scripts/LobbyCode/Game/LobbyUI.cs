@@ -60,7 +60,7 @@ namespace Game
         }
 
 
-        private void Start()
+        private async void Start()
         {
             _lobbyCodeText.text = $"Lobby code: {GameLobbyManager.Instance.GetLobbyCode()}";
 
@@ -71,7 +71,7 @@ namespace Game
             }
             else
             {
-                GameLobbyManager.Instance.SetSelectedMap(_currentMapIndex,_mapSelectionData.Maps[_currentMapIndex].SceneName);
+                await GameLobbyManager.Instance.SetSelectedMap(_currentMapIndex,_mapSelectionData.Maps[_currentMapIndex].SceneName);
 
             }
         }
@@ -152,13 +152,7 @@ namespace Game
         
         
     }
-    
-  
-    
-    
-    
-    
-    
+ 
     
 }
 
