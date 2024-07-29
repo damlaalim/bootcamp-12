@@ -1,20 +1,23 @@
 ﻿using UnityEngine;
 
-public class ItemPickup : MonoBehaviour
+namespace _Bootcamp.Scripts.Interactable
 {
-    public Item Item;
-
-    void Pickup()
+    public class ItemPickup : MonoBehaviour
     {
-        if (Item != null)
+        public Item Item;
+
+        void Pickup()
         {
-            InventoryManager.Instance.Add(Item);
-            Destroy(gameObject);
+            if (Item != null)
+            {
+                // InventoryManager.Instance.Add(Item);
+                Destroy(gameObject);
+            }
         }
-    }
 
-    private void OnMouseDown()
-    {
-        Pickup();
+        private void OnMouseDown()
+        {
+            Pickup();
+        }
     }
 }
