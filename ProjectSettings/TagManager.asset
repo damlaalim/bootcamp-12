@@ -11,6 +11,8 @@ TagManager:
   - SwitchOnWall
   - Lava
   - Trap
+  - Bullet
+  - Cube
   layers:
   - Default
   - TransparentFX

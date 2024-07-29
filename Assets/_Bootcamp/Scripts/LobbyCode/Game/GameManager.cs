@@ -1,3 +1,4 @@
+using System;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.VisualScripting;
@@ -31,6 +32,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
     private void ConnectionApproval(NetworkManager.ConnectionApprovalRequest request, NetworkManager.ConnectionApprovalResponse response)
     {
         Debug.Log($"Player connection: {request.ClientNetworkId}");
@@ -38,4 +40,6 @@ public class GameManager : MonoBehaviour
         response.CreatePlayerObject = true;
         response.Pending = false;
     }
+    
+    
 }

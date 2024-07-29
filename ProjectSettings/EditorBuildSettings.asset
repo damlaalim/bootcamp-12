@@ -8,31 +8,52 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Bootcamp/Scenes/MultiPlayer Test Scene.unity
     guid: 3a31b24d7f20831479087e4502f896e6
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/LoadingPhoton.unity
+    guid: 60b49708c0c53d74d93600e827a3bca6
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/LobbyScene.unity
+    guid: 1d520eaa980c7d44c8e9c0f9f5475d37
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/PlatformOpenScene.unity
+    guid: 4cfab2e49fdb1c0478c47fd2010c46e0
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/Office.unity
+    guid: ce1c6d7e55345b94db1f3998fd7b5491
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/Puzzle1.unity
+    guid: a7cbc668759717549988e6442c9fb8d2
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/Puzzle2.unity
+    guid: ab8527ecb7f11bf4eb289db5e3d48dc3
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/OfficeSceneLoader.unity
+    guid: eba66fc25d2bece4798a9cb080e16fda
   - enabled: 0
     path: Assets/_Bootcamp/Scenes/Dialogue system Test.unity
     guid: e2cefdaf4a524864e9ac872620a40830
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Bootcamp/Scenes/Init.unity
     guid: 1b4212acfe4d7bd4880a43660b909723
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Bootcamp/Scenes/mainMenu.unity
     guid: 24263326e956ccb468aa1e95c79ac330
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Bootcamp/Scenes/LoadingScene.unity
     guid: 80319e6fc5a360642b1b1b62fb7101fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Bootcamp/Scenes/Lobby.unity
     guid: 877fdd649caa3b044815ac59b58d8968
-  - enabled: 1
-    path: Assets/Scenes/OpenScene.unity
-    guid: 1a9c6b838680e6146a7123d18c34c091
-  - enabled: 1
-    path: Assets/_Bootcamp/Scenes/Maps/RedScene.unity
-    guid: 827fe034fa2cd3141b7e2622e38f4e65
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Bootcamp/Scenes/Maps/PuzzleDeneme.unity
     guid: d75636c3ecdcc754aa41ae063c944941
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Bootcamp/Scenes/Maps/GreenScene.unity
     guid: 790cd01bd6141e84faed27192c3c772b
+  - enabled: 0
+    path: Assets/Scenes/OpenScene.unity
+    guid: 1a9c6b838680e6146a7123d18c34c091
+  - enabled: 0
+    path: Assets/_Bootcamp/Scenes/Maps/RedScene.unity
+    guid: 827fe034fa2cd3141b7e2622e38f4e65
   m_configObjects: {}
