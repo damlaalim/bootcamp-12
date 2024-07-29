@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 1a9c6b838680e6146a7123d18c34c091
+<<<<<<<< HEAD:Assets/_Bootcamp/Scenes/OpenScene.unity.meta
+guid: bb595c436f23b21468ffdcab35a3b567
+========
+guid: 96d72dd6b41cb9441ab6298004ae36ee
+>>>>>>>> assets:Assets/_Bootcamp/Scenes/Tutorial.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

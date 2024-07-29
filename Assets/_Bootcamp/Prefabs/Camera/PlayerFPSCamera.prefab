@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 60.000004
     OrthographicSize: 5
-    NearClipPlane: 0.3
+    NearClipPlane: 0.6
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -206,6 +206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d736848b18f40a1bc4af84c069be84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clampAngle: 80
+  _clampAngle: 40
   _horizontalSpeed: 60
   _verticalSpeed: 60
+  _inputController: {fileID: 0}
+  _playerMovement: {fileID: 0}
+  _playerBody: {fileID: 0}

@@ -27,6 +27,7 @@ public class TrapMovement : MonoBehaviour
             transform.DOMoveX(xPositionB, durationBC).SetEase(Ease.Linear);
             yield return new WaitForSeconds(durationBC);
 
+
             transform.DOMoveX(xPositionA, durationAB).SetEase(Ease.Linear);
             yield return new WaitForSeconds(durationAB);
         }
