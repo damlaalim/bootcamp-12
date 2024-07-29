@@ -10,18 +10,20 @@ namespace _Bootcamp.Scripts.Platform
     public class PlatformController : MonoBehaviour
     {
         public bool isTrap;
-        [SerializeField] private bool _platformIsTimeLimited;
-        [SerializeField] private float _countdownDelay;
-        [SerializeField] private MeshRenderer _mesh;
-        [SerializeField] private Collider _collider;
-        [SerializeField] private float _initPosY;
         
-        [Inject] private PlatformManager _platformManager;
+        [SerializeField] private bool _platformIsTimeLimited, _visible;
+        [SerializeField] private float _countdownDelay, _initPosY, _fallDelay, _showDelay;
+
         private bool _isShow, _countdownIsStarted;
+        private MeshRenderer _mesh;
+        private Collider _collider;
 
         private void Awake()
         {
-            _mesh.enabled = _collider.enabled = false;
+            _mesh = GetComponent<MeshRenderer>();
+            _collider = GetComponent<Collider>();
+            
+            _mesh.enabled = _isShow = _visible;
         }
 
         public void ShowPlatform()
@@ -30,23 +32,22 @@ namespace _Bootcamp.Scripts.Platform
 
             _isShow = true;
             
-            _mesh.enabled = _collider.enabled = true;
+            _mesh.enabled = true;
             var targetPos = transform.position;
             transform.position = targetPos.With(y: _initPosY);
-            transform.DOMoveY(targetPos.y, .2f);
+            transform.DOMoveY(targetPos.y, _showDelay);
         }
 
         private void FallPlatform()
         {
-            _isShow = false;
-            // animasyon
+            transform.DOMoveY(0, _fallDelay).OnComplete(() => _isShow = false);
         }
 
         public void PlayerCollided()
         {
             if (!isTrap)
             {
-                _platformManager.PlatformTriggered(this);
+                // _platformManager.PlatformTriggered(this);
                 
                 if (_platformIsTimeLimited && !_countdownIsStarted)
                     StartCoroutine(Countdown_Routine());
