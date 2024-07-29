@@ -46,5 +46,20 @@ namespace _Bootcamp.Scripts.Player
         {
             return _playerControls.Player.Interaction.triggered;
         }
+
+        public bool Danced1ThisFrame()
+        {
+            return _playerControls.Player.Dance1.triggered;
+        }
+
+        public bool Danced2ThisFrame()
+        {
+            return _playerControls.Player.Dance2.triggered;
+        }
+
+        public bool SitThisFrame()
+        {
+            return _playerControls.Player.Sit.triggered;
+        }
     }
 }

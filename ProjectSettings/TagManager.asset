@@ -9,6 +9,8 @@ TagManager:
   - LightPoint
   - SwitchOnFloor
   - SwitchOnWall
+  - Lava
+  - Trap
   layers:
   - Default
   - TransparentFX
