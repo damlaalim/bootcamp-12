@@ -49,8 +49,6 @@ namespace _Bootcamp.Scripts.LobbyCode.GameFramework.Manager
                 return false;
             }
 
-               
-                
                 Debug.Log($"Lobby Created wtih in lobby id {_lobby.Id}");
 
                 _heartbeatcCorotine = StartCoroutine(HeartbeatLobbyCorotine(_lobby.Id, 6f));

@@ -10,9 +10,8 @@ namespace _Bootcamp.Scripts.LobbyCode.GameFramework.Manager
 {
     public class RelayManager : Singleton<RelayManager>
     {
-
-
-        private bool _isHost;
+        
+        private bool _isHost = false;
         private string _joinCode;
         private string _ip;
         private int _port;
@@ -25,11 +24,10 @@ namespace _Bootcamp.Scripts.LobbyCode.GameFramework.Manager
 
         public bool IsHost
         {
-            get { return _isHost; }
+            get { return _isHost;}
 
         }
-
-
+        
         public string GetAllocationId()
         {
             return _allocationId.ToString();
@@ -46,7 +44,7 @@ namespace _Bootcamp.Scripts.LobbyCode.GameFramework.Manager
             _joinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
 
 
-            RelayServerEndpoint dtlsEndpoint = allocation.ServerEndpoints.First(endpoint => endpoint.ConnectionType == "dtls");
+            RelayServerEndpoint dtlsEndpoint = allocation.ServerEndpoints.First(conn => conn.ConnectionType == "dtls");
 
             _ip = dtlsEndpoint.Host;
             _port = dtlsEndpoint.Port;
@@ -60,12 +58,12 @@ namespace _Bootcamp.Scripts.LobbyCode.GameFramework.Manager
             return _joinCode;
         }
 
-        public async Task<bool> JoinRelay(string joinCode)
+        public async Task<bool>JoinRelay(string joinCode)
         {
             _joinCode = joinCode;
             JoinAllocation allocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
             
-            RelayServerEndpoint dtlsEndpoint = allocation.ServerEndpoints.First(endpoint => endpoint.ConnectionType == "dtls");
+            RelayServerEndpoint dtlsEndpoint = allocation.ServerEndpoints.First(conn => conn.ConnectionType == "dtls");
             
             _ip = dtlsEndpoint.Host;
             _port = dtlsEndpoint.Port;
