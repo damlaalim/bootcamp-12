@@ -12,6 +12,5 @@ public class ColorLamp : MonoBehaviourPunCallbacks
     {
         Debug.Log("ChangeLightColor RPC çağrıldı");
         targetLight.color = Color.blue;
-       
     }
 }

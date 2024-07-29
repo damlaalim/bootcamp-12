@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace _Bootcamp.PhotonBurak.Scripts
 {
-    public class SceneLoader : MonoBehaviour
+    public class SceneLoader : MonoBehaviourPunCallbacks
     {
         void Update()
         {
@@ -23,7 +23,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("Puzzle1"); 
+                PhotonNetwork.LoadLevel("Puzzle2"); 
             }
         }
 
@@ -31,7 +31,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("Puzzle2"); // Geçmek istediğiniz sahnenin adını buraya yazın
+                PhotonNetwork.LoadLevel("Office");
             }
         }
     }

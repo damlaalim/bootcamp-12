@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: 3a31b24d7f20831479087e4502f896e6
   - enabled: 1
     path: Assets/_Bootcamp/PhotonBurak/Scene/LoadingPhoton.unity
-    guid: 9fb434619311dca46a43d61af033bc24
+    guid: 60b49708c0c53d74d93600e827a3bca6
   - enabled: 1
     path: Assets/_Bootcamp/PhotonBurak/Scene/LobbyScene.unity
     guid: 1d520eaa980c7d44c8e9c0f9f5475d37
@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Bootcamp/PhotonBurak/Scene/Puzzle2.unity
     guid: ab8527ecb7f11bf4eb289db5e3d48dc3
+  - enabled: 1
+    path: Assets/_Bootcamp/PhotonBurak/Scene/OfficeSceneLoader.unity
+    guid: eba66fc25d2bece4798a9cb080e16fda
   - enabled: 0
     path: Assets/_Bootcamp/Scenes/Dialogue system Test.unity
     guid: e2cefdaf4a524864e9ac872620a40830

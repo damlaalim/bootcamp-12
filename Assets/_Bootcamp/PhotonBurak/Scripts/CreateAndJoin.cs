@@ -28,7 +28,10 @@ public class CreateAndJoin : MonoBehaviourPunCallbacks
 
    public override void OnJoinedRoom()
    {
-       PhotonNetwork.LoadLevel("Office");
+       if (PhotonNetwork.IsMasterClient)
+       {
+           PhotonNetwork.LoadLevel("OfficeSceneLoader");
+       }
    }
    
    
