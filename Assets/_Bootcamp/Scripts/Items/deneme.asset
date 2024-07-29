@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   itemName: deneme
+  info: hi
   value: 0
-  icon: {fileID: 21300000, guid: 1e6f1e23d123be54daa0075e47b40c9f, type: 3}
+  icon: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
