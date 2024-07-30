@@ -46,6 +46,9 @@ MonoBehaviour:
   - ChangeLightColor
   - UpdateAnimation
   - SyncRotation
+  - SendLampSituation
+  - YeniSahneYukle
+  - RPC_ToggleSwitch
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
