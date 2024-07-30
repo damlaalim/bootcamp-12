@@ -12,7 +12,7 @@ namespace _Bootcamp.Scripts.Platform
         public bool isTrap;
         
         [SerializeField] private bool _platformIsTimeLimited, _visible;
-        [SerializeField] private float _countdownDelay, _initPosY, _fallDelay, _showDelay;
+        [SerializeField] private float _countdownDelay, _initPosY, _fallDelay, _showDelay, _returnDelay = 5;
 
         private bool _isShow, _countdownIsStarted;
         private MeshRenderer _mesh;
@@ -40,7 +40,11 @@ namespace _Bootcamp.Scripts.Platform
 
         private void FallPlatform()
         {
-            transform.DOMoveY(0, _fallDelay).OnComplete(() => _isShow = false);
+            var initY = transform.position.y;
+            transform.DOMoveY(0, _fallDelay).OnComplete(() =>
+            {
+                transform.DOMoveY(initY, _returnDelay);
+            });
         }
 
         public void PlayerCollided()
