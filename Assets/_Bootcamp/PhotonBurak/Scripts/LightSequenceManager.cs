@@ -1,41 +1,65 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
 
 public class LightSequenceManager : MonoBehaviour
 {
-    public List<LightControl> lights; // Işıkların listesi
-    public List<int> correctSequence; // Doğru sıralama
-    private List<int> currentSequence = new List<int>(); // Oyuncunun seçtiği sıralama
+    public List<LightControl> lights;
+    public List<int> correctSequence;
 
-    public void AddToSequence(int lightOrder)
+    private int currentOrder = 0;
+  
+    public void SwitchCheck(int order)
     {
-        currentSequence.Add(lightOrder);
-        
-        // Sıralamayı kontrol et
-        if (currentSequence.Count == correctSequence.Count)
+        if (correctSequence[currentOrder] == order)
         {
-            CheckSequence();
-        }
-    }
-
-    void CheckSequence()
-    {
-        for (int i = 0; i < correctSequence.Count; i++)
-        {
-            if (currentSequence[i] != correctSequence[i])
+            currentOrder++;
+            Debug.Log("Doğru tetiklendi current order" + currentOrder);
+            if (currentOrder >= correctSequence.Count)
             {
-                // Yanlış sıralama
-                currentSequence.Clear();
-                return;
+                Debug.Log("WIN");
             }
         }
-
-        // Doğru sıralama
-        LoadNextScene();
+        else
+        {
+            currentOrder = 0;
+            ResetAllSwitches();
+            Debug.Log("current index resetlendi" + currentOrder);
+        }
     }
 
-    void LoadNextScene()
+    void ResetAllSwitches()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("OfficePhoton");
+        foreach (var light in lights)
+        {
+            light.TurnOff();
+        }
     }
+
+    public IEnumerator LightRoutine()
+    {
+         OpenAllSwitch();
+         yield return new WaitForSeconds(2f);
+         ResetAllSwitches();
+         yield return new WaitForSeconds(0.3f);
+         OpenAllSwitch();
+         yield return new WaitForSeconds(0.6f);
+         ResetAllSwitches();
+         yield return new WaitForSeconds(0.3f);
+         OpenAllSwitch();
+         yield return new WaitForSeconds(0.1f);
+         ResetAllSwitches();
+
+    }
+    
+    void OpenAllSwitch()
+    {
+        foreach (var light in lights)
+        {
+            light.TurnOn();
+        }
+    }
+    
+    
 }

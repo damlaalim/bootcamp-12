@@ -49,6 +49,7 @@ MonoBehaviour:
   - SendLampSituation
   - YeniSahneYukle
   - RPC_ToggleSwitch
+  - ToggleSwitch
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
