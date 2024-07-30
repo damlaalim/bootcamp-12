@@ -8,7 +8,7 @@ namespace _Bootcamp.Scripts.LobbyCode.Game.Data
         private string _id;
         private string _gamertag;
         private bool _isready;
-
+        
         public string Id
         {
             get => _id;
