@@ -16,12 +16,10 @@ namespace _Bootcamp.Scripts.Platform
 
         private bool _isShow, _countdownIsStarted;
         private MeshRenderer _mesh;
-        private Collider _collider;
 
         private void Awake()
         {
             _mesh = GetComponent<MeshRenderer>();
-            _collider = GetComponent<Collider>();
             
             _mesh.enabled = _isShow = _visible;
         }
@@ -49,15 +47,10 @@ namespace _Bootcamp.Scripts.Platform
 
         public void PlayerCollided()
         {
-            if (!isTrap)
+            if (_platformIsTimeLimited && !_countdownIsStarted)
             {
-                // _platformManager.PlatformTriggered(this);
-                
-                if (_platformIsTimeLimited && !_countdownIsStarted)
-                    StartCoroutine(Countdown_Routine());
+                StartCoroutine(Countdown_Routine());
             }
-            else
-                ;
         }
 
         private IEnumerator Countdown_Routine()
