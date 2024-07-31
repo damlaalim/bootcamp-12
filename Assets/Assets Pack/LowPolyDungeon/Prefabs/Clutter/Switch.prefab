@@ -264,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1657173985745892954, guid: eff5d75ac4c47dd41b9a59e9804b9868, type: 3}
       propertyPath: m_text
-      value: F
+      value: "\u0130t [F]"
       objectReference: {fileID: 0}
     - target: {fileID: 1657173985745892954, guid: eff5d75ac4c47dd41b9a59e9804b9868, type: 3}
       propertyPath: m_fontColor.b
