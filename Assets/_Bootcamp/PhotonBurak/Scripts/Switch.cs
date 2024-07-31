@@ -7,14 +7,13 @@ public class Switch : MonoBehaviourPunCallbacks
     public LightSequenceManager sequenceManager; 
     private bool isPlayerNearby = false;
 
-    
     public int switchOrder = 0;
+    
     private void Update()
     {
         if (isPlayerNearby && Input.GetKeyDown(KeyCode.E))
         {
             photonView.RPC("ToggleSwitch", RpcTarget.AllBuffered); 
-            ToggleSwitch(); 
             sequenceManager.SwitchCheck(switchOrder);
         }
     }
@@ -36,9 +35,10 @@ public class Switch : MonoBehaviourPunCallbacks
         }
     }
     
+    [PunRPC]
     void ToggleSwitch()
     {
-        bool newState = !lightControl.lightObject.enabled;
-        lightControl.SetLightState(newState);
+        // bool newState = !lightControl.lightObject.enabled;
+        lightControl.SetLightState(true);
     }
 }

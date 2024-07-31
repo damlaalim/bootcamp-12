@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -8,18 +9,22 @@ public class LightControl : MonoBehaviour
 {
     public Light lightObject;
 
-    
+    private void Start()
+    {
+        TurnOff();
+    }
+
     public void SetLightState(bool state)
     {
-        lightObject.intensity = 300;
-        lightObject.enabled = state;
+        lightObject.intensity = state ? 300 : 0;
+        // lightObject.enabled = state;
     }
     public void TurnOff()
     {
         if (lightObject != null)
         {
             lightObject.intensity = 300;
-            lightObject.DOIntensity(0,.2f).OnComplete((() => lightObject.enabled = false));
+            lightObject.DOIntensity(0,.2f);
             
         }
     } 
@@ -28,7 +33,6 @@ public class LightControl : MonoBehaviour
         if (lightObject != null)
         {
             lightObject.intensity = 0;
-            lightObject.enabled = true;
             lightObject.DOIntensity(300,.2f);
         }
     }

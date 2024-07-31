@@ -4,6 +4,7 @@ using _Bootcamp.Scripts.Player;
 using Cinemachine;
 using UnityEngine;
 using Photon.Pun;
+using UnityEditor;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -47,6 +48,8 @@ public class PhotonCharacterController : MonoBehaviourPun
         _characterController = GetComponent<CharacterController>();
         _cameraTransform = Camera.main.transform;
         canMove = _isIdle = true;
+        Cursor.lockState = CursorLockMode.Locked;
+
 
         if (photonView.IsMine)
         {

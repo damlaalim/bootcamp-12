@@ -2,8 +2,9 @@ using System;
 using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
+using Photon.Pun;
 
-public class LightSequenceManager : MonoBehaviour
+public class LightSequenceManager : MonoBehaviourPunCallbacks
 {
     public List<LightControl> lights;
     public List<int> correctSequence;
@@ -12,10 +13,16 @@ public class LightSequenceManager : MonoBehaviour
   
     public void SwitchCheck(int order)
     {
+        photonView.RPC("SwitchCheckRPC", RpcTarget.AllBuffered, order);
+    }
+
+    [PunRPC]
+    private void SwitchCheckRPC(int order)
+    {
         if (correctSequence[currentOrder] == order)
         {
+            Debug.Log($"switch pull, id: {order}");
             currentOrder++;
-            Debug.Log("Doğru tetiklendi current order" + currentOrder);
             if (currentOrder >= correctSequence.Count)
             {
                 Debug.Log("WIN");
@@ -23,14 +30,15 @@ public class LightSequenceManager : MonoBehaviour
         }
         else
         {
+            Debug.Log($"Yanlış switch, id: {order}");
             currentOrder = 0;
             ResetAllSwitches();
-            Debug.Log("current index resetlendi" + currentOrder);
         }
     }
 
     void ResetAllSwitches()
     {
+        Debug.Log("SIFIRLA");
         foreach (var light in lights)
         {
             light.TurnOff();
@@ -60,6 +68,4 @@ public class LightSequenceManager : MonoBehaviour
             light.TurnOn();
         }
     }
-    
-    
 }
