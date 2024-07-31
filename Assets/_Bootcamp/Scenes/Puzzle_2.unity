@@ -2583,6 +2583,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.000001, y: 0.14387773, z: 4.0000005}
   m_Center: {x: -0.000000834465, y: -0.060010362, z: 0}
+--- !u!223 &116765297 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5549497431282737794, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+  m_PrefabInstance: {fileID: 1303585388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &121935531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3060,6 +3065,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.000001, y: 0.14387773, z: 4.0000005}
   m_Center: {x: -0.000000834465, y: -0.060010362, z: 0}
+--- !u!223 &154970869 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5549497431282737794, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+  m_PrefabInstance: {fileID: 1655815857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &159125786 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5549497431282737794, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+  m_PrefabInstance: {fileID: 717665228}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &163539879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4142,6 +4157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca1c8ccb7e04546bd9af453388a0ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 1674847683}
   lightControl: {fileID: 1741279189}
   sequenceManager: {fileID: 534899473}
   switchOrder: 3
@@ -4668,6 +4684,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7613687411510550139, guid: 4963b55652180e946b10fda98efef25e, type: 3}
   m_PrefabInstance: {fileID: 268117244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &268806366 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5549497431282737794, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+  m_PrefabInstance: {fileID: 1947593317}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &280504165
 PrefabInstance:
@@ -11439,6 +11460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca1c8ccb7e04546bd9af453388a0ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 159125786}
   lightControl: {fileID: 1154930630}
   sequenceManager: {fileID: 534899473}
   switchOrder: 0
@@ -11804,6 +11826,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4788993314141400, guid: f58dcf1faed060e48af3b1ad7c749ca9, type: 3}
   m_PrefabInstance: {fileID: 744219727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &759757149 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5549497431282737794, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+  m_PrefabInstance: {fileID: 935053315}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &767312898
 PrefabInstance:
@@ -13392,6 +13419,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13471,6 +13510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca1c8ccb7e04546bd9af453388a0ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 1579824512}
   lightControl: {fileID: 563982021}
   sequenceManager: {fileID: 534899473}
   switchOrder: 4
@@ -14176,6 +14216,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14255,6 +14307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca1c8ccb7e04546bd9af453388a0ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 759757149}
   lightControl: {fileID: 1617293512}
   sequenceManager: {fileID: 534899473}
   switchOrder: 6
@@ -20204,6 +20257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca1c8ccb7e04546bd9af453388a0ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 116765297}
   lightControl: {fileID: 844968950}
   sequenceManager: {fileID: 534899473}
   switchOrder: 1
@@ -24030,6 +24084,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34636936646bab64fb61023e7f3410ba, type: 3}
+--- !u!223 &1579824512 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5549497431282737794, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+  m_PrefabInstance: {fileID: 879695919}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1581119872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25944,6 +26003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca1c8ccb7e04546bd9af453388a0ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 154970869}
   lightControl: {fileID: 35448329}
   sequenceManager: {fileID: 534899473}
   switchOrder: 2
@@ -25969,6 +26029,11 @@ MonoBehaviour:
   sceneViewId: 3
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!223 &1656598380 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5549497431282737794, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+  m_PrefabInstance: {fileID: 2020033910}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1661684605
 GameObject:
   m_ObjectHideFlags: 0
@@ -26156,6 +26221,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.9064894, y: 4.6534925, z: 0.6491242}
   m_Center: {x: -0.02676916, y: 2.3107162, z: -0.0000018924475}
+--- !u!223 &1674847683 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5549497431282737794, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+  m_PrefabInstance: {fileID: 237760885}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1678454082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29688,6 +29758,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29767,6 +29849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca1c8ccb7e04546bd9af453388a0ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 268806366}
   lightControl: {fileID: 1540003640}
   sequenceManager: {fileID: 534899473}
   switchOrder: 7
@@ -30701,6 +30784,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153863051553690637, guid: 3a1dc3e054a222f48a2dd916be2f8b01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30780,6 +30875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca1c8ccb7e04546bd9af453388a0ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 1656598380}
   lightControl: {fileID: 35788381}
   sequenceManager: {fileID: 534899473}
   switchOrder: 5
