@@ -23,7 +23,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("Tutorial"); 
+                PhotonNetwork.LoadLevel("Puzzle_2"); 
             }
         }
 
