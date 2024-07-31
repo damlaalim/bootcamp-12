@@ -23,7 +23,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("Puzzle2"); 
+                PhotonNetwork.LoadLevel("Puzzle_2"); 
             }
         }
 
@@ -31,7 +31,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("Office");
+                PhotonNetwork.LoadLevel("OfficePhoton");
             }
         }
     }
