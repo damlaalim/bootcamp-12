@@ -654,6 +654,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3341887419176349163, guid: 5df44d0262150424e9b3884ddaf9c3a2, type: 3}
+      propertyPath: sceneViewId
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3682479141692147301, guid: 5df44d0262150424e9b3884ddaf9c3a2, type: 3}
       propertyPath: m_Name
       value: Lobby
@@ -742,10 +746,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 663213311}
-    - target: {fileID: 6958711483449776581, guid: 5df44d0262150424e9b3884ddaf9c3a2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeScene
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

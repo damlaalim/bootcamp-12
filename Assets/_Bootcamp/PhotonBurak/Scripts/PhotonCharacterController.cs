@@ -6,6 +6,7 @@ using UnityEngine;
 using Photon.Pun;
 using UnityEditor;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PhotonCharacterController : MonoBehaviourPun
@@ -46,8 +47,18 @@ public class PhotonCharacterController : MonoBehaviourPun
         _playerInput = GetComponent<PlayerInputController>();
         _characterController = GetComponent<CharacterController>();
         _cameraTransform = Camera.main.transform;
-        Cursor.lockState = CursorLockMode.None; 
-        canMove = false;
+
+        if (SceneManager.GetActiveScene().name == "OfficeSceneLoader")
+        {
+            Cursor.lockState = CursorLockMode.None;
+            canMove = false;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            canMove = true;
+        }
+        
         _isIdle = true;
 
         if (photonView.IsMine)
