@@ -81,15 +81,15 @@ public class PhotonCharacterController : MonoBehaviourPun
         var sprinted = _playerInputa.SprintedThisFrame();
 
         // Kamera yönüne göre hareket vektörlerini hesapla
-        var moveDirection = new Vector3(moveInput.x, 0, moveInput.y);
-        var cameraForward = _cameraTransform.forward;
-        cameraForward.y = 0;
-        cameraForward.Normalize();
-        var cameraRight = _cameraTransform.right;
-        cameraRight.y = 0;
-        cameraRight.Normalize();
+        // var moveDirection = new Vector3(moveInput.x, 0, moveInput.y);
+        // var cameraForward = _cameraTransform.forward;
+        // cameraForward.y = 0;
+        // cameraForward.Normalize();
+        // var cameraRight = _cameraTransform.right;
+        // cameraRight.y = 0;
+        // cameraRight.Normalize();
 
-        var move = cameraForward * moveDirection.z + cameraRight * moveDirection.x;
+        var move = (_cameraTransform.forward * moveInput.y + _cameraTransform.right * moveInput.x).With(y: 0);
         var sprintMultiplier = sprinted ? _sprintMultiplier : 1;
 
         _characterController.Move(move * (Time.deltaTime * _moveSpeed * sprintMultiplier));
@@ -102,9 +102,7 @@ public class PhotonCharacterController : MonoBehaviourPun
                 _isJump = true;
                 _isRun = _isIdle = _isDance = _isMove = false;
                 photonView.RPC("UpdateAnimation", RpcTarget.Others,"Jump",.1f);
-
             }
-
             _playerVelocity.y += Mathf.Sqrt(_jumpHeight * -3.0f * _gravityValue);
         }
 
@@ -121,7 +119,6 @@ public class PhotonCharacterController : MonoBehaviourPun
                 _isIdle = true;
                 _isMove = _isRun = _isJump = false;
                 photonView.RPC("UpdateAnimation", RpcTarget.Others,"Idle",.1f);
-
             }
 
             return;
@@ -183,11 +180,6 @@ public class PhotonCharacterController : MonoBehaviourPun
     [PunRPC]
     public void SyncRotation(Quaternion rotation)
     {
-        // Diğer oyuncuların dönüş bilgilerini güncelleyin
         model.localRotation = rotation;
     }
-    
-    
-    
-    
 }
