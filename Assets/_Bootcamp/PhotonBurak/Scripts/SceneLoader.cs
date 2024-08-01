@@ -1,3 +1,4 @@
+
 using Photon.Pun;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -18,9 +19,10 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("PlayerTestScene");
                 PhotonNetwork.LoadLevel("Office");
             }
         }
+        
+      
     }
 }

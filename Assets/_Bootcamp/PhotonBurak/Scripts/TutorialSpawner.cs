@@ -6,8 +6,8 @@ public class TutorialSpawner : MonoBehaviourPun
 {
     void Start()
     {
-        Vector3 leftPosition = new Vector3(+6.3f, 91.3f, 159.5f);
-        Vector3 rightPosition = new Vector3(-97.8f, 19.04f, 95.5f);
+        Vector3 leftPosition = new Vector3(+0.92f, 11.28f, 16.05f);
+        Vector3 rightPosition = new Vector3(-9.98f, 4.375f, 9.87f);
 
         Vector3 spawnPosition;
         if (PhotonNetwork.IsMasterClient)
