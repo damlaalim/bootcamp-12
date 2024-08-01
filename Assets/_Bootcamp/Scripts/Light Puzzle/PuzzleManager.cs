@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class PuzzleManager : MonoBehaviour
+public class PuzzleManager : MonoBehaviourPunCallbacks
 {
+    public bool test;
     public RotateObjects[] lamps;
     public RotateObjects[] mirrors;
     public GameObject finalSwitch;
@@ -31,23 +33,27 @@ public class PuzzleManager : MonoBehaviour
 
         if (firstPuzzleCompleted && !isFinalSwitchActive)
         {
-            finalSwitch.SetActive(true);
-            finalTarget.SetActive(true);
-            isFinalSwitchActive = true;
+            photonView.RPC("FinalObjectActivate", RpcTarget.AllBuffered, true);
         }
 
         if (secondPuzzleCompleted && isFinalSwitchActive)
         {
-            doorAnim.SetBool("PuzzleCompleted", true);
-            doorTwoAnim.SetBool("PuzzleCompleted", true);
+            photonView.RPC("PuzzleCompletedAnimation", RpcTarget.AllBuffered, true);
         }
         else
         {
-            doorAnim.SetBool("PuzzleCompleted", false);
-            doorTwoAnim.SetBool("PuzzleCompleted", false);
+            photonView.RPC("PuzzleCompletedAnimation", RpcTarget.AllBuffered, false);
         }
     }
 
+    [PunRPC]
+    private void FinalObjectActivate(bool active)
+    {
+        finalSwitch.SetActive(true);
+        finalTarget.SetActive(true);
+        isFinalSwitchActive = true;
+    }
+    
     void CheckPuzzleCompletion()
     {
         firstLightsCompleted = CheckFirstLights();
@@ -117,5 +123,12 @@ public class PuzzleManager : MonoBehaviour
         {
             mirror.UpdateMirrorActiveObjects();
         }
+    }
+
+    [PunRPC]
+    private void PuzzleCompletedAnimation(bool active)
+    {
+        doorAnim.SetBool("PuzzleCompleted", active);
+        doorTwoAnim.SetBool("PuzzleCompleted", active);
     }
 }

@@ -7,8 +7,8 @@ namespace _Bootcamp.PhotonBurak.Scripts
     {
         void Start()
         {
-            Vector3 leftPosition = new Vector3(+0.98f, 0.14f, -8.34f);
-            Vector3 rightPosition = new Vector3(+11.34f, 0.14f, -8.34f);
+            Vector3 leftPosition = new Vector3(9,6,24);
+            Vector3 rightPosition = new Vector3(10, 6, 20);
 
             Vector3 spawnPosition;
             if (PhotonNetwork.IsMasterClient)

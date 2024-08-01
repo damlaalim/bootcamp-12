@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class RotateObjects : MonoBehaviour
+public class RotateObjects : MonoBehaviourPunCallbacks
 {
     public static RotateObjects Instance;
 
@@ -28,10 +29,16 @@ public class RotateObjects : MonoBehaviour
 
     public void RotateObject()
     {
+        photonView.RPC("RotateObjectRPC", RpcTarget.AllBuffered); 
+    }
+
+    [PunRPC]
+    private void RotateObjectRPC()
+    {
         // Sonraki rotasyona geç
         currentRotationIndex = (currentRotationIndex + 1) % rotations.Length;
         transform.eulerAngles = rotations[currentRotationIndex];
-        UpdateActiveObjects();
+        UpdateActiveObjects();   
     }
 
     public bool IsCorrectRotationOne()

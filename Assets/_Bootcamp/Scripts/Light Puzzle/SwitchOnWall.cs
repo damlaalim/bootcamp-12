@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class SwitchOnWall : MonoBehaviour
+public class SwitchOnWall : MonoBehaviourPunCallbacks
 {
     public static SwitchOnWall Instance;
     public Animator platformAnim;
@@ -11,6 +12,12 @@ public class SwitchOnWall : MonoBehaviour
         Instance = this;
     }
     public void WallSwitch()
+    {
+        photonView.RPC("WallSwitchRPC", RpcTarget.AllBuffered);
+    }
+
+    [PunRPC]
+    private void WallSwitchRPC()
     {
         platformAnim.SetTrigger("SwitchPulled");
     }

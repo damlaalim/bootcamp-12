@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Bootcamp/Scenes/Maps/RedScene.unity
     guid: 827fe034fa2cd3141b7e2622e38f4e65
+  - enabled: 1
+    path: Assets/_Bootcamp/Scenes/Puzzle.unity
+    guid: 60fb9f692b6ff3b47be5abf1f38d0d4e
   m_configObjects: {}
