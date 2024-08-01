@@ -11,31 +11,6 @@ public class Switch : MonoBehaviourPunCallbacks, IInteractable
 
     public int switchOrder = 0;
     
-    private void Update()
-    {
-        if (isPlayerNearby && Input.GetKeyDown(KeyCode.E))
-        {
-            
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isPlayerNearby = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        
-        if (other.CompareTag("Player"))
-        {
-            isPlayerNearby = false;
-        }
-    }
-    
     [PunRPC]
     void ToggleSwitch()
     {

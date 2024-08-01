@@ -48,8 +48,8 @@ public class PhotonCharacterController : MonoBehaviourPun
         _characterController = GetComponent<CharacterController>();
         _cameraTransform = Camera.main.transform;
         canMove = _isIdle = true;
-        Cursor.lockState = CursorLockMode.Locked;
-
+        //Cursor.lockState = CursorLockMode.Locked;
+        
 
         if (photonView.IsMine)
         {
@@ -63,7 +63,7 @@ public class PhotonCharacterController : MonoBehaviourPun
 
     private void Update()
     {
-        if (photonView.IsMine)
+        if (photonView.IsMine && canMove)
         {
             Move();
             Actions();
