@@ -16,19 +16,19 @@ public class TrapMovement : MonoBehaviour
     {
         while (true)
         {
-            transform.DOMoveX(xPositionB, durationAB).SetEase(Ease.Linear);
+            transform.DOLocalMoveX(xPositionB, durationAB).SetEase(Ease.Linear);
             yield return new WaitForSeconds(durationAB);
 
-            transform.DOMoveX(xPositionC, durationBC).SetEase(Ease.Linear);
+            transform.DOLocalMoveX(xPositionC, durationBC).SetEase(Ease.Linear);
             yield return new WaitForSeconds(durationBC);
 
             yield return new WaitForSeconds(startDelay);
 
-            transform.DOMoveX(xPositionB, durationBC).SetEase(Ease.Linear);
+            transform.DOLocalMoveX(xPositionB, durationBC).SetEase(Ease.Linear);
             yield return new WaitForSeconds(durationBC);
 
 
-            transform.DOMoveX(xPositionA, durationAB).SetEase(Ease.Linear);
+            transform.DOLocalMoveX(xPositionA, durationAB).SetEase(Ease.Linear);
             yield return new WaitForSeconds(durationAB);
         }
     }

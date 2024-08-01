@@ -6051,7 +6051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86e1e4b1f024b1f8bd22dfeb6d82ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Puzzle_2
+  SceneName: Puzzle
   _canvas: {fileID: 1088476772}
 --- !u!135 &672249946
 SphereCollider:
