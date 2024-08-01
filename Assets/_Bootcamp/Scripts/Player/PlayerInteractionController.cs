@@ -10,17 +10,18 @@ namespace _Bootcamp.Scripts.Player
     public class PlayerInteractionController : MonoBehaviourPunCallbacks
     {
         [SerializeField] private float _maxDistance = 50;
+        [SerializeField] private InGameCanvas _inGameCanvas;
+        
         private Camera _mainCam;
         private PlayerInputController _playerInputController;
-        // private PlayerMovement _playerMovement;
+        private PhotonCharacterController _characterController;
         private IInteractable _lastInteractable;
 
-        [Inject] private InGameCanvas _inGameCanvas;
 
         private void Start()
         {
             _playerInputController = GetComponent<PlayerInputController>();
-            // _playerMovement = GetComponent<PlayerMovement>();
+            _characterController = GetComponent<PhotonCharacterController>();
             _mainCam = GetComponentInChildren<Camera>();
         }
         
@@ -42,17 +43,17 @@ namespace _Bootcamp.Scripts.Player
             {
                 _inGameCanvas.ShowInteractionText(false);
                 Cursor.lockState = CursorLockMode.None;
-                // _playerMovement.canMove = false;
+                _characterController.canMove = false;
                 return;
             }
             
-            //Cursor.lockState = CursorLockMode.Locked;
-            // _playerMovement.canMove = true;
+            Cursor.lockState = CursorLockMode.Locked;
+            _characterController.canMove = true;
 
             var ray = _mainCam.ScreenPointToRay(Input.mousePosition);
             var canInteractable = Physics.Raycast(ray, out var hit, _maxDistance) && hit.transform.TryGetComponent<IInteractable>(out _);
 
-            // _inGameCanvas.ShowInteractionText(canInteractable);
+            _inGameCanvas.ShowInteractionText(canInteractable);
 
             if (canInteractable && hit.transform.TryGetComponent<IInteractable>(out var _interactable))
             {

@@ -11,7 +11,6 @@ namespace _Bootcamp.Scripts.CameraSystem
         [SerializeField] private PhotonCharacterController _photonCharacterController;
         [SerializeField] private float _clampAngle = 80, _horizontalSpeed = 10, _verticalSpeed = 10;
         [SerializeField] private PlayerInputController _inputController;
-        [SerializeField] private PlayerMovement _playerMovement;
         [SerializeField] private Transform _playerBody;
 
         private Vector3 _startingRot;
@@ -26,7 +25,7 @@ namespace _Bootcamp.Scripts.CameraSystem
         {
             if (!vcam.Follow || stage != CinemachineCore.Stage.Aim || _inputController is null|| !_photonCharacterController.IsMine) return;
 
-            var deltaInput = _photonCharacterController.canMove?_inputController.GetLookDelta(): Vector2.zero;
+            var deltaInput = _photonCharacterController.canMove ? _inputController.GetLookDelta(): Vector2.zero;
         
             _startingRot.x += deltaInput.x * _horizontalSpeed * deltaTime;
             _startingRot.y += deltaInput.y * _verticalSpeed * deltaTime;
