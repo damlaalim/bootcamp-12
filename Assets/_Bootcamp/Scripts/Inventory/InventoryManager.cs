@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using _Bootcamp.Scripts.Interactable;
 using _Bootcamp.Scripts.Player;
@@ -8,7 +9,9 @@ using ModestTree;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
+using Sequence = DG.Tweening.Sequence;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -18,12 +21,16 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] private int _itemCapacity;
     [SerializeField] private GameObject _emptyUi;
     [SerializeField] private Transform _border;
-    [SerializeField] private PlayerInputController _playerInput;
+    [SerializeField] private GameObject _penguinPrefab;
+    //[SerializeField] private PlayerInputController _playerInput;
     [SerializeField] private TextMeshProUGUI _infoText;
-    
+    [SerializeField] private float stoppingDistance = 5f;
+    private bool canSummonPenguin = true;
+    [SerializeField]private List<GameObject> _ghostSpawn;
     private CollectableController[] _items;
     private List<GameObject> _uiList = new ();
     private int _currentItemIndex;
+    private bool _isGlassesUsed;
 
     private void Start()
     {
@@ -33,10 +40,32 @@ public class InventoryManager : MonoBehaviour
 
     private void Update()
     {
-        if (_playerInput.Scroll() > 0)
-            NextItem();
-        else if (_playerInput.Scroll() < 0)
-            PreItem();
+       // if (_playerInput.Scroll() > 0)
+        //    NextItem();
+        //else if (_playerInput.Scroll() < 0)
+        //    PreItem();
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            _isGlassesUsed = !_isGlassesUsed;
+
+            if (_isGlassesUsed)
+            {
+                SpawnGhosts();
+            }
+            else if (!_isGlassesUsed)
+            {
+                RemoveGhosts();
+            }
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2) && canSummonPenguin)
+        {
+            StartCoroutine(CallPenguin());
+            UseItem(1);
+        }
+
     }
 
     public void Add(CollectableController item)
@@ -112,9 +141,54 @@ public class InventoryManager : MonoBehaviour
         _border.localPosition = Vector3.zero;
         _border.gameObject.SetActive(true);
     }
-    
-    public void SelectItem()
+
+    public void UseItem(int index)
     {
-        
+        if (index >= 0 && index < _items.Length)
+        {
+            _items[index].Use();
+        }
+    }
+    private IEnumerator CallPenguin()
+    {
+        canSummonPenguin = false;
+        GameObject penguin = Instantiate(_penguinPrefab);
+
+        penguin.transform.localScale = Vector3.zero; 
+        Sequence spawnSequence = DOTween.Sequence();
+        spawnSequence.Append(penguin.transform.DOScale(Vector3.one*2, 3f).SetEase(Ease.OutBounce)); 
+        spawnSequence.Join(penguin.transform.DORotate(new Vector3(0, 360, 0), 1f, RotateMode.FastBeyond360)); 
+
+        yield return spawnSequence.WaitForCompletion(); 
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            float enhancedStoppingDistance = stoppingDistance + 2f;
+            while (penguin != null && Vector3.Distance(penguin.transform.localPosition, player.transform.localPosition) > stoppingDistance)
+            {
+                penguin.transform.localPosition = Vector3.MoveTowards(penguin.transform.localPosition, player.transform.localPosition, 5f * Time.deltaTime);
+                penguin.transform.LookAt(player.transform);
+                yield return null;
+            }
+        }
+        yield return new WaitForSeconds(40);
+        Destroy(penguin);
+        canSummonPenguin = true;
+    }
+
+    private void SpawnGhosts()
+    {
+        foreach (var item in _ghostSpawn)
+        {
+            item.SetActive(true);
+        }
+    }
+    private void RemoveGhosts()
+    {
+        foreach (var item in _ghostSpawn)
+        {
+            item.SetActive(false);
+        }
     }
 }
