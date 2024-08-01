@@ -8,6 +8,7 @@ public class LightSequenceManager : MonoBehaviourPunCallbacks
 {
     public List<LightControl> lights;
     public List<int> correctSequence;
+    [SerializeField] GameObject _exitWall;
 
     private int currentOrder = 0;
   
@@ -25,6 +26,7 @@ public class LightSequenceManager : MonoBehaviourPunCallbacks
             currentOrder++;
             if (currentOrder >= correctSequence.Count)
             {
+                _exitWall.SetActive(false);
                 Debug.Log("WIN");
             }
         }
