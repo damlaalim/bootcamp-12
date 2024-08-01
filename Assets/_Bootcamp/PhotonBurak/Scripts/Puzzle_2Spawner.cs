@@ -7,7 +7,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
     {
         void Start()
         {
-            Vector3 leftPosition = new Vector3(9,6,24);
+            Vector3 leftPosition = new Vector3(0,1,0);
             Vector3 rightPosition = new Vector3(10, 6, 20);
 
             Vector3 spawnPosition;

@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Bootcamp/Scenes/Puzzle.unity
     guid: 60fb9f692b6ff3b47be5abf1f38d0d4e
+  - enabled: 1
+    path: Assets/_Bootcamp/Scenes/PlayerTestScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

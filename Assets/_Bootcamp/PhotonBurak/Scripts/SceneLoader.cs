@@ -31,7 +31,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
         {
             if (PhotonNetwork.IsMasterClient)
             {
-                PhotonNetwork.LoadLevel("OfficePhoton");
+                PhotonNetwork.LoadLevel("PlayerTestScene");
             }
         }
     }
