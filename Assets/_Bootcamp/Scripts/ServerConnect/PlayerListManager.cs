@@ -16,15 +16,16 @@ namespace _Bootcamp.Scripts.ServerConnect
         public override void OnPlayerEnteredRoom(Photon.Realtime.Player newPlayer)
         {
             base.OnPlayerEnteredRoom(newPlayer);
-            UpdatePlayerList();
+            photonView.RPC("UpdatePlayerList", RpcTarget.AllBuffered);
         }
 
         public override void OnPlayerLeftRoom(Photon.Realtime.Player otherPlayer)
         {
             base.OnPlayerLeftRoom(otherPlayer);
-            UpdatePlayerList();
+            photonView.RPC("UpdatePlayerList", RpcTarget.AllBuffered);
         }
 
+        [PunRPC]
         private void UpdatePlayerList()
         {
             playerNames.Clear();
@@ -40,13 +41,12 @@ namespace _Bootcamp.Scripts.ServerConnect
         {
             if (PhotonNetwork.InRoom)
             {
-                UpdatePlayerList();
+                photonView.RPC("UpdatePlayerList", RpcTarget.AllBuffered);
             }
             if (PhotonNetwork.CurrentRoom != null)
             {
                 roomNameText.text = PhotonNetwork.CurrentRoom.Name;
             }
-
             playButton.interactable = PhotonNetwork.LocalPlayer.IsMasterClient;
         }
     }
