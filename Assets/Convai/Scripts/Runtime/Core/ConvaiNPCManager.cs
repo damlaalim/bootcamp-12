@@ -41,11 +41,18 @@ namespace Convai.Scripts.Utils
             else
                 Destroy(gameObject);
 
-            _mainCamera = Camera.main;
+            // _mainCamera = Camera.main;
+            _mainCamera = FindObjectOfType<Camera>();
         }
 
         private void LateUpdate()
         {
+            if (!_mainCamera)
+            {
+                _mainCamera = FindObjectOfType<Camera>();
+                return;
+            }
+
             Ray ray = new(_mainCamera.transform.position, _mainCamera.transform.forward);
             bool foundConvaiNPC = false;
 

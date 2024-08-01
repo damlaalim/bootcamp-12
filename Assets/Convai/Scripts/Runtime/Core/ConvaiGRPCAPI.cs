@@ -516,6 +516,7 @@ namespace Convai.Scripts.Utils
         /// <param name="newActiveNPC"></param>
         public void InterruptCharacterSpeech(ConvaiNPC newActiveNPC)
         {
+            return;
             // If the active NPC is speaking, cancel the ongoing gRPC call,
             // clear the response queue, and reset the character's speaking state, lip-sync, animation, and audio playback
             if (newActiveNPC != null)
@@ -545,6 +546,7 @@ namespace Convai.Scripts.Utils
                 newActiveNPC.ClearResponseQueue();
 
                 // Reset the character's speaking state
+                Debug.Log("susturdu");
                 newActiveNPC.SetCharacterTalking(false);
 
                 // Stop any ongoing audio playback
