@@ -30961,7 +30961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86e1e4b1f024b1f8bd22dfeb6d82ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Tutorial
+  SceneName: MinigameOne
   _canvas: {fileID: 1901010687}
 --- !u!1 &1213582260
 GameObject:

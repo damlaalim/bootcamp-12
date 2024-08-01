@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Bootcamp/Scenes/Reception.unity
     guid: 848214a3762ca4549974c5cd798a71aa
+  - enabled: 1
+    path: Assets/_Bootcamp/Scenes/MinigameOne.unity
+    guid: e0b6ca1cbbce95c428938b5bb8f06fe4
   m_configObjects: {}
