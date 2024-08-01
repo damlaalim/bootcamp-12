@@ -26,5 +26,9 @@ namespace _Bootcamp.Scripts.Interactable
         {
             ICanvas.enabled = show;
         }
+        public void Use()
+        {
+            Debug.Log($"{data.itemName}");
+        }
     }
 }

@@ -19,6 +19,7 @@ namespace _Bootcamp.Scripts.NPC
         public void Do()
         {
             Talk();
+            Debug.Log("Konuştu");
         }
 
         public void ShowCanvas(bool show)

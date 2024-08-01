@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using Game;
@@ -13,6 +13,7 @@ public class LevelManager : MonoBehaviour
     private GameObject Ivariable;
     private int currentLevel;
     private GameObject _gameObject;
+    public AnalyticsManager analyticsManager;
     public void NextLevel()
     {
         currentLevel++;
@@ -39,7 +40,13 @@ public class LevelManager : MonoBehaviour
         NextLevel();
         
     }
-    
+    public void EndLevel()
+    {
+        analyticsManager.fallCount = 10;
+        analyticsManager.completionTime = 120.5f;   
+        analyticsManager.SendCustomEvent();
+    }
+
 }
 
 [Serializable]
@@ -49,3 +56,4 @@ public class PlayerPositions
     public Vector3 player2;
     
 }
+
