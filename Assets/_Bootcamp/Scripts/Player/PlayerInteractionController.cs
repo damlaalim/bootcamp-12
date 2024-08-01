@@ -46,7 +46,7 @@ namespace _Bootcamp.Scripts.Player
                 return;
             }
             
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
             // _playerMovement.canMove = true;
 
             var ray = _mainCam.ScreenPointToRay(Input.mousePosition);

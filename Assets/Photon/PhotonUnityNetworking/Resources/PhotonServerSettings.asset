@@ -51,6 +51,11 @@ MonoBehaviour:
   - RPC_ToggleSwitch
   - ToggleSwitch
   - SwitchCheckRPC
+  - RotateObject
+  - UpdateOutcomes
+  - RotateObjectRpc
+  - GetMessage
+  - ToggleChatCanvas
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
