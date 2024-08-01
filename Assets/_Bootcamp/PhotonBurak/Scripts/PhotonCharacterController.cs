@@ -46,9 +46,9 @@ public class PhotonCharacterController : MonoBehaviourPun
         _playerInput = GetComponent<PlayerInputController>();
         _characterController = GetComponent<CharacterController>();
         _cameraTransform = Camera.main.transform;
-        canMove = _isIdle = true;
-        //Cursor.lockState = CursorLockMode.Locked;
-
+        Cursor.lockState = CursorLockMode.None; 
+        canMove = false;
+        _isIdle = true;
 
         if (photonView.IsMine)
         {
