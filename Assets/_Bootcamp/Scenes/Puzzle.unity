@@ -14317,13 +14317,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "Bu zindandan kurtulabilece\u011Finizi mi sand\u0131n\u0131z? Deneyin.
-        Ba\u015Far\u0131s\u0131zl\u0131\u011F\u0131n\u0131z\u0131 g\xF6rmek i\xE7in
-        sab\u0131rs\u0131zlan\u0131yorum."
+      value: "-Azrail: Bu zindandan kurtulabilece\u011Finizi mi sand\u0131n\u0131z?
+        Deneyin. Ba\u015Far\u0131s\u0131zl\u0131\u011F\u0131n\u0131z\u0131 g\xF6rmek
+        i\xE7in sab\u0131rs\u0131zlan\u0131yorum."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "Ger\xE7i heyecanlanm\u0131yorum olsun izlemek keyifli."
+      value: "-Azrail: Ger\xE7i heyecanlanm\u0131yorum olsun izlemek keyifli."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[2]

@@ -9649,22 +9649,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "HHareketli platformlar, dikkat edin de aya\u011F\u0131n\u0131z\u0131
+      value: "-Azrail: Hareketli platformlar, dikkat edin de aya\u011F\u0131n\u0131z\u0131
         kayd\u0131rmayay\u0131m."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "Kayd\u0131rmak istesem kayd\u0131r\u0131r\u0131mda herneyse deneyin
-        bakal\u0131m."
+      value: "-Azrail: Kayd\u0131rmak istesem kayd\u0131r\u0131r\u0131mda herneyse
+        deneyin bakal\u0131m."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "Zaten sizi i\u015Fe al\u0131rken \xE7okta c\u0131l\u0131zd\u0131n\u0131z
+      value: "-Azrail: Zaten sizi i\u015Fe al\u0131rken \xE7okta c\u0131l\u0131zd\u0131n\u0131z
         pek g\xFCvenemedim ama \xFCstten geldi emir ne yapal\u0131m."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[3]
-      value: "Hadi deneyin e\u011Flendirin beni biraz."
+      value: "-Azrail: Hadi deneyin e\u011Flendirin beni biraz."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[4]
@@ -12029,11 +12029,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "\u0130yi iyi platforma geldiniz \u015Fa\u015F\u0131rt\u0131c\u0131"
+      value: "-Azrail: \u0130yi iyi platforma geldiniz \u015Fa\u015F\u0131rt\u0131c\u0131"
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "O kadar z\u0131plamak iyi gelmi\u015Ftir \u0131s\u0131nm\u0131\u015Fs\u0131n\u0131zd\u0131r."
+      value: "-Azrail: O kadar z\u0131plamak iyi gelmi\u015Ftir \u0131s\u0131nm\u0131\u015Fs\u0131n\u0131zd\u0131r."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[2]

@@ -23755,20 +23755,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "Kurbanlar\u0131m\u0131n en nefret etti\u011Fi yer. Onlar\u0131n kanlar\u0131yla
-        s\xFCsledim. I\u015F\u0131klar, camera vee g\xFCl\xFCmse! "
+      value: "-Azrail: Kurbanlar\u0131m\u0131n en nefret etti\u011Fi yer. Onlar\u0131n
+        kanlar\u0131yla s\xFCsledim. I\u015F\u0131klar, camera vee g\xFCl\xFCmse! "
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "\xC7al\u0131\u015F\u0131mda olsan\u0131z sizi kurban\u0131m ilan ediyorum!"
+      value: "-Azrail: \xC7al\u0131\u015F\u0131mda olsan\u0131z sizi kurban\u0131m
+        ilan ediyorum!"
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "Bu arada bu puzzle devler taraf\u0131ndan yap\u0131lm\u0131\u015Ft\u0131r."
+      value: "-Azrail: Bu arada bu puzzle devler taraf\u0131ndan yap\u0131lm\u0131\u015Ft\u0131r."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[3]
-      value: "T\xFCm hak ve ko\u015Fullar onlara aittir."
+      value: "-Azrail: T\xFCm hak ve ko\u015Fullar onlara aittir."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[4]

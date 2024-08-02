@@ -30916,7 +30916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86e1e4b1f024b1f8bd22dfeb6d82ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: MinigameOne
+  SceneName: Tutorial
   analyticsManager: {fileID: 1210760280}
   _canvas: {fileID: 1901010687}
 --- !u!114 &1210760280

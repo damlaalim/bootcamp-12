@@ -10075,15 +10075,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "Tebrikler kazand\u0131n\u0131z!"
+      value: "-Azrail: Tebrikler kazand\u0131n\u0131z!"
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "Zorlu olmasada finale gelmeyi ba\u015Fard\u0131n\u0131z."
+      value: "-Azrail: Zorlu olmasada finale gelmeyi ba\u015Fard\u0131n\u0131z."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "Ger\xE7i buradan \xE7\u0131k\u0131\u015F yok."
+      value: "-Azrail: Ger\xE7i buradan \xE7\u0131k\u0131\u015F yok."
       objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[3]
