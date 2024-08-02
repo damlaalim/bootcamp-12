@@ -7785,6 +7785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 772037516}
   - component: {fileID: 772037515}
+  - component: {fileID: 772037517}
   m_Layer: 0
   m_Name: ObjectSpawner (1)
   m_TagString: Untagged
@@ -7839,6 +7840,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &772037517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772037514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 4
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &773877604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8650,6 +8673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880600345}
   - component: {fileID: 880600346}
+  - component: {fileID: 880600347}
   m_Layer: 0
   m_Name: ObjectSpawner
   m_TagString: Untagged
@@ -8703,7 +8727,29 @@ MonoBehaviour:
   difficultyIncreaseRate: 0.01
   maxSpawnRate: 5
   maxSpeed: 10
-  exitPlatformAnim: {fileID: 0}
+  exitPlatformAnim: {fileID: 1784352383}
+--- !u!114 &880600347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880600344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 3
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &898998165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10028,6 +10074,7 @@ GameObject:
   - component: {fileID: 1065928199}
   - component: {fileID: 1065928198}
   - component: {fileID: 1065928200}
+  - component: {fileID: 1065928201}
   m_Layer: 0
   m_Name: Right Trigger
   m_TagString: Untagged
@@ -10085,6 +10132,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fenceAnim: {fileID: 236678089}
   wallAnim: {fileID: 1231344090}
+--- !u!114 &1065928201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065928197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 2
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1082126648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11006,6 +11075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1231344089}
   - component: {fileID: 1231344090}
+  - component: {fileID: 1231344091}
   m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
@@ -11129,6 +11199,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1231344091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231344088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 5
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1243344820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15993,6 +16085,7 @@ GameObject:
   - component: {fileID: 1829606350}
   - component: {fileID: 1829606351}
   - component: {fileID: 1829606352}
+  - component: {fileID: 1829606353}
   m_Layer: 0
   m_Name: Left Trigger
   m_TagString: Untagged
@@ -16050,6 +16143,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fenceAnim: {fileID: 342110056}
   wallAnim: {fileID: 1231344090}
+--- !u!114 &1829606353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829606349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1831244810
 PrefabInstance:
   m_ObjectHideFlags: 0

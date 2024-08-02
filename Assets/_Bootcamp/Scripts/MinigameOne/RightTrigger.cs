@@ -1,28 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class RightTrigger : MonoBehaviour
+public class RightTrigger : MonoBehaviourPun
 {
     public Animator fenceAnim;
     public Animator wallAnim;
-    // Start is called before the first frame update
-    void Start()
+   
+    [PunRPC]
+    public void Animation2(Collider other)
     {
-        
+            fenceAnim.SetTrigger("Righty");
+            wallAnim.SetTrigger("Wall Animation Begin");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
-        {
-            fenceAnim.SetTrigger("Righty");
-            wallAnim.SetTrigger("Wall Animation Begin");
+        { 
+            photonView.RPC("Animation2", RpcTarget.AllBuffered,other);
         }
+
+       
     }
 }

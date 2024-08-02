@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class ObjectSpawner : MonoBehaviour
+public class ObjectSpawner : MonoBehaviourPun
 {
     public List<GameObject> objectPrefabs; 
     public Transform spawnPoint;
@@ -70,10 +71,12 @@ public class ObjectSpawner : MonoBehaviour
         objectsInPlay--;
         if (objectsInPlay == 0 && currentPrefabIndex >= objectPrefabs.Count)
         {
-            EndGame();
+            photonView.RPC("EndGame", RpcTarget.AllBuffered);
+
         }
     }
 
+    [PunRPC]
     void EndGame()
     {
         exitPlatformAnim.SetBool("isGameEnded", true);
