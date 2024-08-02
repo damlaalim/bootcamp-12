@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class DeadSpawner : MonoBehaviour
 {
-    Vector3 leftPosition = new Vector3(1.97714996f, 27.8309822f, 48.0616913f);
-    Vector3 rightPosition = new Vector3(-30.0397682f, 7.03725433f, 29.3938522f);
+    Vector3 leftPosition = new Vector3(2.3927536f, 26.1755829f, 44.4430923f);
+    Vector3 rightPosition = new Vector3(-28.8164616f, 7.12477493f, 27.9515495f);
 
     public Vector3 GetPosition()
     {
