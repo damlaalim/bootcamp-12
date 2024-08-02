@@ -10,7 +10,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
 
         private void Start()
         {
-            if (Canvas != null)
+            if (photonView.IsMine && Canvas != null)
             {
                 Canvas.enabled = false;
             }
@@ -18,26 +18,23 @@ namespace _Bootcamp.PhotonBurak.Scripts
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.K) && Canvas != null)
+            if (photonView.IsMine && Input.GetKeyDown(KeyCode.K) && Canvas != null)
             {
-                if (photonView.IsMine)
-                {
-                    var enabled = !Canvas.enabled;
-                    Canvas.enabled = enabled;
-                    _character.canMove = !enabled;
-                    _character.openCanvas = enabled;
-                    Cursor.lockState = !enabled ? CursorLockMode.Locked : CursorLockMode.None;
+                var enabled = !Canvas.enabled;
+                Canvas.enabled = enabled;
+                _character.canMove = !enabled;
+                _character.openCanvas = enabled; 
+                Cursor.lockState = !enabled ? CursorLockMode.Locked : CursorLockMode.None;
 
-                    // Canvas durumunu diğer oyunculara bildir
-                    photonView.RPC("SyncCanvasState", RpcTarget.Others, enabled);
-                }
+                // Canvas durumunu diğer oyunculara bildir
+                photonView.RPC("SyncCanvasState", RpcTarget.Others, enabled);
             }
         }
 
         [PunRPC]
         private void SyncCanvasState(bool enabled)
         {
-            if (Canvas != null)
+            if (!photonView.IsMine && Canvas != null)
             {
                 Canvas.enabled = enabled;
                 _character.canMove = !enabled;
