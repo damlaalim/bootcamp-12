@@ -29,4 +29,11 @@ public class Switch : MonoBehaviourPunCallbacks, IInteractable
     {
         ICanvas.enabled = show;
     }
+
+    public void ChangePos(Camera mainCam)
+    {
+        var mainCamRot = mainCam.transform.rotation;
+        _canvas.transform.LookAt(_canvas.transform.position + mainCamRot * Vector3.forward,
+            mainCamRot * Vector3.up);
+    }
 }

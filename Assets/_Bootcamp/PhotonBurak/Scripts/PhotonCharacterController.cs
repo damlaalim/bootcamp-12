@@ -23,7 +23,7 @@ public class PhotonCharacterController : MonoBehaviourPun
     public Text Name;
 
 
-    public bool canMove;
+    public bool canMove, openCanvas;
     [SerializeField] private float _sprintMultiplier, _moveSpeed, _gravityValue = -9.81f, _jumpHeight = 6.0f;
     [SerializeField] private Animator _anim;
 

@@ -27,6 +27,13 @@ namespace _Bootcamp.Scripts.NPC
             ICanvas.enabled = show;
         }
 
+        public void ChangePos(Camera mainCam)
+        {
+            var mainCamRot = mainCam.transform.rotation;
+            _canvas.transform.LookAt(_canvas.transform.position + mainCamRot * Vector3.forward,
+                mainCamRot * Vector3.up);
+        }
+
         private void Talk()
         {
             ConversationManager.Instance.StartConversation(_conversation);

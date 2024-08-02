@@ -8,5 +8,6 @@ namespace _Bootcamp.Scripts.Interactable
         public void Do();
 
         public void ShowCanvas(bool show);
+        public void ChangePos(Camera mainCam);
     }
 }

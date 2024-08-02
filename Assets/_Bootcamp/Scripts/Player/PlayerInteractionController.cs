@@ -48,7 +48,8 @@ namespace _Bootcamp.Scripts.Player
             }
             
             // Cursor.lockState = CursorLockMode.Locked;
-            _characterController.canMove = true;
+            if (!_characterController.openCanvas)
+                _characterController.canMove = true;
 
             var ray = _mainCam.ScreenPointToRay(Input.mousePosition);
             var canInteractable = Physics.Raycast(ray, out var hit, _maxDistance) && hit.transform.TryGetComponent<IInteractable>(out _);
@@ -59,10 +60,8 @@ namespace _Bootcamp.Scripts.Player
             {
                 _lastInteractable?.ShowCanvas(false);
                 _interactable.ShowCanvas(true);
+                _interactable.ChangePos(_mainCam);
                 _lastInteractable = _interactable;
-                var mainCamRot = _mainCam.transform.rotation;
-                hit.transform.LookAt(hit.transform.position + mainCamRot * Vector3.forward,
-                    mainCamRot * Vector3.up);
             }
             else if (!canInteractable && _lastInteractable is not null)
             {
