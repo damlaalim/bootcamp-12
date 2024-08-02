@@ -1228,6 +1228,10 @@ PrefabInstance:
       propertyPath: _targetXPos
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 2937462765954710682, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1517,6 +1521,10 @@ PrefabInstance:
     - target: {fileID: 4709528127833354, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937462765954710682, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10458,6 +10466,10 @@ PrefabInstance:
       propertyPath: _targetXPos
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 2937462765954710682, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17984,6 +17996,10 @@ PrefabInstance:
       propertyPath: _targetXPos
       value: -9
       objectReference: {fileID: 0}
+    - target: {fileID: 2937462765954710682, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22655,6 +22671,10 @@ PrefabInstance:
     - target: {fileID: 1501066025704768439, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
       propertyPath: _targetXPos
       value: -32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937462765954710682, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28508,6 +28528,10 @@ PrefabInstance:
       propertyPath: _targetXPos
       value: -30
       objectReference: {fileID: 0}
+    - target: {fileID: 2937462765954710682, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33362,6 +33386,10 @@ PrefabInstance:
     - target: {fileID: 1501066025704768439, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
       propertyPath: _targetXPos
       value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937462765954710682, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
