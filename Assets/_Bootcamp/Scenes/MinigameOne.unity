@@ -20216,6 +20216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: Reception
+  analyticsManager: {fileID: 0}
   _canvas: {fileID: 288241099}
 --- !u!135 &1864943757
 SphereCollider:
