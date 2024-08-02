@@ -48,7 +48,8 @@ namespace _Bootcamp.Scripts.Player
             }
             
             // Cursor.lockState = CursorLockMode.Locked;
-            _characterController.canMove = true;
+            if (!_characterController.openCanvas)
+                _characterController.canMove = true;
 
             var ray = _mainCam.ScreenPointToRay(Input.mousePosition);
             var canInteractable = Physics.Raycast(ray, out var hit, _maxDistance) && hit.transform.TryGetComponent<IInteractable>(out _);
