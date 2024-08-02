@@ -7,21 +7,19 @@ public class RightTrigger : MonoBehaviourPun
 {
     public Animator fenceAnim;
     public Animator wallAnim;
-   
+
     [PunRPC]
-    public void Animation2(Collider other)
+    public void Animation2()
     {
-            fenceAnim.SetTrigger("Righty");
-            wallAnim.SetTrigger("Wall Animation Begin");
+        fenceAnim.SetTrigger("Righty");
+        wallAnim.SetTrigger("Wall Animation Begin");
     }
-    
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
-        { 
-            photonView.RPC("Animation2", RpcTarget.AllBuffered,other);
+        if (other.CompareTag("Player"))
+        {
+            photonView.RPC("Animation2", RpcTarget.AllBuffered);
         }
-
-       
     }
 }

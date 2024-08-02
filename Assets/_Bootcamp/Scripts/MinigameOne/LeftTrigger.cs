@@ -3,27 +3,23 @@ using System.Collections.Generic;
 using Photon.Pun;
 using UnityEngine;
 
-public class LeftTrigger : MonoBehaviourPun
+public class LeftTrigger : MonoBehaviourPunCallbacks
 {
     public Animator fenceAnim;
     public Animator wallAnim;
-    // Start is called before the first frame update
-    [PunRPC]
-    public void Animation1(Collider other)
-    {
-            fenceAnim.SetTrigger("Righty");
-            wallAnim.SetTrigger("Wall Animation Begin");
-        
-    }
-    
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            photonView.RPC("Animation1", RpcTarget.AllBuffered,other);
+            photonView.RPC("Animation", RpcTarget.AllBuffered); 
         }
-    
     }
-    
-   
+
+    [PunRPC]
+    public void Animation()
+    {
+        fenceAnim.SetTrigger("Lefty");
+        wallAnim.CrossFade("WallFall", .1f);
+    }
 }

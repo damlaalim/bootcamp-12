@@ -72,6 +72,9 @@ MonoBehaviour:
   - Animation1
   - Animation2
   - EndGame
+  - LeftyAnimation
+  - WallAnimation
+  - Animation
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
