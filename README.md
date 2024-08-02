@@ -241,7 +241,7 @@ Convai'ın ücretsiz sürümü kullanılmıştır. Ekipteki herkes yazılım ile
 
       <a href="https://imgur.com/a/5o6gipF" target="_blank">Sprint Board Görselleri (OUA Bootcamp U12)</a>
        ## Ürün Görselleri 
-      <a href="" target="_blank">Ürün Görselleri (OUA Bootcamp U12)</a><br>
+      <a href="https://imgur.com/a/u0UvjGS" target="_blank">Ürün Görselleri (OUA Bootcamp U12)</a><br>
       ## Daily Scrum Görselleri
       <a href="https://imgur.com/a/EKUXDax">Daily Scrum Görselleri (OUA Bootcamp U12)</a>
   </details>
