@@ -259,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 115226.8, y: 56445.082}
+  m_AnchoredPosition: {x: 183291.84, y: 89752.516}
   m_SizeDelta: {x: 240, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3232908546141551965
@@ -840,8 +840,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 3
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Radius: 2.13
+  m_Center: {x: 0, y: 1.47, z: 0.51}
 --- !u!114 &3946339764801624411
 MonoBehaviour:
   m_ObjectHideFlags: 0
