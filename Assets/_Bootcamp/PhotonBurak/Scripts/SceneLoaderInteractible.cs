@@ -7,10 +7,12 @@ namespace _Bootcamp.PhotonBurak.Scripts
     public class SceneLoaderInteractible:MonoBehaviourPunCallbacks, IInteractable
     {
         [SerializeField] private string SceneName;
+        [SerializeField]AnalyticsManager analyticsManager;
         public Canvas ICanvas { get; set; }
         [SerializeField] private Canvas _canvas;
         public void Do()
         {
+            analyticsManager.SendCustomEvent();
             if (PhotonNetwork.IsMasterClient)
             {
                 PhotonNetwork.LoadLevel(SceneName);

@@ -22,7 +22,7 @@ public class AnalyticsManager : MonoBehaviour
             Debug.LogError($"Failed to initialize Unity Services: {ex}");
         }
     }
-
+    /*
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -30,6 +30,7 @@ public class AnalyticsManager : MonoBehaviour
             SendCustomEvent();
         }
     }
+    */
 
     public void SendCustomEvent()
     {
