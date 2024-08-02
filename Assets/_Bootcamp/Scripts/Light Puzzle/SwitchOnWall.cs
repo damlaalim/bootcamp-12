@@ -7,6 +7,7 @@ public class SwitchOnWall : MonoBehaviourPunCallbacks
 {
     public static SwitchOnWall Instance;
     public Animator platformAnim;
+    public Animator switchAnim;
     private void Awake()
     {
         Instance = this;
@@ -17,8 +18,8 @@ public class SwitchOnWall : MonoBehaviourPunCallbacks
     }
 
     [PunRPC]
-    private void WallSwitchRPC()
+   public  void WallSwitchRPC()
     {
-        platformAnim.SetTrigger("SwitchPulled");
+        switchAnim.SetTrigger("switchAnim");
     }
 }

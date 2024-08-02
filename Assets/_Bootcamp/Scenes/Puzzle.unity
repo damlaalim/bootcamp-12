@@ -424,6 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformAnim: {fileID: 175786146}
+  switchAnim: {fileID: 13429471}
 --- !u!65 &13429469
 BoxCollider:
   m_ObjectHideFlags: 0
