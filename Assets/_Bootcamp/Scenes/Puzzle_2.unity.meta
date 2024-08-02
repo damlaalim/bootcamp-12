@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Assets Pack/Dark UI.meta
+guid: 2c22347c03c8aee4d8c8c60cd8f8fbd8
+folderAsset: yes
+========
 guid: 5fd9d27f10e40cb4e89e6cd95368bd3d
+>>>>>>>> main:Assets/_Bootcamp/Scenes/Puzzle_2.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

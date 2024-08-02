@@ -98,6 +98,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Scroll"",
+                    ""type"": ""Value"",
+                    ""id"": ""1aa41f5e-7d91-45ad-8b5b-683dd51b4b5f"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -287,6 +296,17 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""action"": ""Sit"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d302d943-7ce8-4994-b099-84bc7aa4d819"",
+                    ""path"": ""<Mouse>/scroll/y"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Scroll"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -303,6 +323,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player_Dance1 = m_Player.FindAction("Dance1", throwIfNotFound: true);
         m_Player_Dance2 = m_Player.FindAction("Dance2", throwIfNotFound: true);
         m_Player_Sit = m_Player.FindAction("Sit", throwIfNotFound: true);
+        m_Player_Scroll = m_Player.FindAction("Scroll", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -372,6 +393,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Dance1;
     private readonly InputAction m_Player_Dance2;
     private readonly InputAction m_Player_Sit;
+    private readonly InputAction m_Player_Scroll;
     public struct PlayerActions
     {
         private @PlayerControls m_Wrapper;
@@ -384,6 +406,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         public InputAction @Dance1 => m_Wrapper.m_Player_Dance1;
         public InputAction @Dance2 => m_Wrapper.m_Player_Dance2;
         public InputAction @Sit => m_Wrapper.m_Player_Sit;
+        public InputAction @Scroll => m_Wrapper.m_Player_Scroll;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -417,6 +440,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Sit.started += instance.OnSit;
             @Sit.performed += instance.OnSit;
             @Sit.canceled += instance.OnSit;
+            @Scroll.started += instance.OnScroll;
+            @Scroll.performed += instance.OnScroll;
+            @Scroll.canceled += instance.OnScroll;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -445,6 +471,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Sit.started -= instance.OnSit;
             @Sit.performed -= instance.OnSit;
             @Sit.canceled -= instance.OnSit;
+            @Scroll.started -= instance.OnScroll;
+            @Scroll.performed -= instance.OnScroll;
+            @Scroll.canceled -= instance.OnScroll;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -472,5 +501,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         void OnDance1(InputAction.CallbackContext context);
         void OnDance2(InputAction.CallbackContext context);
         void OnSit(InputAction.CallbackContext context);
+        void OnScroll(InputAction.CallbackContext context);
     }
 }

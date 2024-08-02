@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class RotateObjects : MonoBehaviour
+public class RotateObjects : MonoBehaviourPunCallbacks
 {
     public static RotateObjects Instance;
 
@@ -11,8 +12,8 @@ public class RotateObjects : MonoBehaviour
     public Vector3 correctRotationOne;
     public Vector3 correctRotationTwo;
 
-    public GameObject[] objectsForRotation; // Bu objeler ýþýklar veya aynalar için rotasyona baðlý olarak aktif edilecek.
-    public GameObject[] conditionalObjects; // Aynalar için kontrol edilecek diðer objeler
+    public GameObject[] objectsForRotation; // Bu objeler Ã½Ã¾Ã½klar veya aynalar iÃ§in rotasyona baÃ°lÃ½ olarak aktif edilecek.
+    public GameObject[] conditionalObjects; // Aynalar iÃ§in kontrol edilecek diÃ°er objeler
 
     private void Awake()
     {
@@ -21,17 +22,23 @@ public class RotateObjects : MonoBehaviour
 
     void Start()
     {
-        // Baþlangýçta ilk rotasyona ayarla
+        // BaÃ¾langÃ½Ã§ta ilk rotasyona ayarla
         transform.eulerAngles = rotations[currentRotationIndex];
         UpdateActiveObjects();
     }
 
     public void RotateObject()
     {
-        // Sonraki rotasyona geç
+        photonView.RPC("RotateObjectRPC", RpcTarget.AllBuffered); 
+    }
+
+    [PunRPC]
+    private void RotateObjectRPC()
+    {
+        // Sonraki rotasyona geÃ§
         currentRotationIndex = (currentRotationIndex + 1) % rotations.Length;
         transform.eulerAngles = rotations[currentRotationIndex];
-        UpdateActiveObjects();
+        UpdateActiveObjects();   
     }
 
     public bool IsCorrectRotationOne()
@@ -61,13 +68,13 @@ public class RotateObjects : MonoBehaviour
 
     public void UpdateActiveObjects()
     {
-        // Tüm objeleri önce deaktif et
+        // TÃ¼m objeleri Ã¶nce deaktif et
         foreach (GameObject obj in objectsForRotation)
         {
             obj.SetActive(false);
         }
 
-        // Geçerli rotasyona baðlý olarak doðru objeyi aktif et
+        // GeÃ§erli rotasyona baÃ°lÃ½ olarak doÃ°ru objeyi aktif et
         if (currentRotationIndex < objectsForRotation.Length)
         {
             objectsForRotation[currentRotationIndex].SetActive(true);
@@ -76,7 +83,7 @@ public class RotateObjects : MonoBehaviour
 
     public void UpdateMirrorActiveObjects()
     {
-        // Aynalarýn koþullu objelerini kontrol ederek aktif hale getirme
+        // AynalarÃ½n koÃ¾ullu objelerini kontrol ederek aktif hale getirme
         bool allConditionsMet = true;
         foreach (GameObject obj in conditionalObjects)
         {
@@ -87,14 +94,14 @@ public class RotateObjects : MonoBehaviour
             }
         }
 
-        // Koþullar saðlanýyorsa rotasyonlara göre objeleri aktif et
+        // KoÃ¾ullar saÃ°lanÃ½yorsa rotasyonlara gÃ¶re objeleri aktif et
         if (allConditionsMet)
         {
             UpdateActiveObjects();
         }
         else
         {
-            // Koþullar saðlanmýyorsa tüm objeleri deaktif et
+            // KoÃ¾ullar saÃ°lanmÃ½yorsa tÃ¼m objeleri deaktif et
             foreach (GameObject obj in objectsForRotation)
             {
                 obj.SetActive(false);

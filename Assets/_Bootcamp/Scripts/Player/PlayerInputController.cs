@@ -9,7 +9,6 @@ namespace _Bootcamp.Scripts.Player
         private void Awake()
         {
             _playerControls = new PlayerControls();
-            Cursor.lockState = CursorLockMode.Locked;
         }
 
         private void OnEnable()
@@ -57,9 +56,9 @@ namespace _Bootcamp.Scripts.Player
             return _playerControls.Player.Dance2.triggered;
         }
 
-        public bool SitThisFrame()
+        public float Scroll()
         {
-            return _playerControls.Player.Sit.triggered;
+            return _playerControls.Player.Scroll.ReadValue<float>();
         }
     }
 }

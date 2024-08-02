@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Assets Pack/Dark UI/Free.meta
+guid: fe6e85c7715b59f45bd60cd825fae29d
+folderAsset: yes
+========
 guid: ebf7a628a1cdf3e43a1dd2504f05f85b
+>>>>>>>> main:Assets/_Bootcamp/Scenes/Start UI.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

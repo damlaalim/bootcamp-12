@@ -1,33 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class SwitchOnGround : MonoBehaviour
+public class SwitchOnGround : MonoBehaviourPunCallbacks
 {
     public static SwitchOnGround Instance;
     public GameObject switchOnWall;
+
+    [SerializeField] private GameObject switchOnGround;
+
     private void Awake()
     {
         Instance = this;
     }
-    // Start is called before the first frame update
-    void Start()
+
+    public void PlaceSwitch()
     {
-        
+        photonView.RPC("PlaceSwitchRPC", RpcTarget.AllBuffered);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DestroySwitch()
     {
-        
+        photonView.RPC("DestroySwitchRPC", RpcTarget.AllBuffered);
     }
-    public void PlaceSwitch()
+    
+    [PunRPC]
+    private void PlaceSwitchRPC()
     {
         switchOnWall.SetActive(true);
     }
-    public void DestroySwitch()
-    {
-        this.gameObject.SetActive(false);
-    }
 
+    [PunRPC]
+    private void DestroySwitchRPC()
+    {
+        switchOnGround.SetActive(false);
+    }
 }

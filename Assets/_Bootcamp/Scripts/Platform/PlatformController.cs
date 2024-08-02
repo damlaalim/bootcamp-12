@@ -2,17 +2,16 @@
 using System.Collections;
 using _Bootcamp.Scripts.MyExtensions;
 using DG.Tweening;
+using Photon.Pun;
 using UnityEngine;
 using Zenject;
 
 namespace _Bootcamp.Scripts.Platform
 {
-    public class PlatformController : MonoBehaviour
+    public class PlatformController : MonoBehaviourPunCallbacks
     {
-        public bool isTrap;
-        
         [SerializeField] private bool _platformIsTimeLimited, _visible;
-        [SerializeField] private float _countdownDelay, _initPosY, _fallDelay, _showDelay;
+        [SerializeField] private float _countdownDelay, _initPosY, _fallDelay, _showDelay, _returnDelay = 5;
 
         private bool _isShow, _countdownIsStarted;
         private MeshRenderer _mesh;
@@ -36,9 +35,14 @@ namespace _Bootcamp.Scripts.Platform
             transform.DOMoveY(targetPos.y, _showDelay);
         }
 
+        [PunRPC]
         private void FallPlatform()
         {
-            transform.DOMoveY(0, _fallDelay).OnComplete(() => _isShow = false);
+            var initY = transform.position.y;
+            transform.DOMoveY(0, _fallDelay).OnComplete(() =>
+            {
+                transform.DOMoveY(initY, _returnDelay);
+            });
         }
 
         public void PlayerCollided()
@@ -55,7 +59,7 @@ namespace _Bootcamp.Scripts.Platform
 
             yield return new WaitForSeconds(_countdownDelay);
             
-            FallPlatform();
+            photonView.RPC("FallPlatform", RpcTarget.AllBuffered);
         }
     }
 }

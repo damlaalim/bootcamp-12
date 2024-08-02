@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Assets Pack/Dark UI/DarkUI.unity.meta
+guid: e604befc3f29ede49b065842e9e35649
+========
 guid: 18c42330859a46a4fbb94334fd98b3fd
+>>>>>>>> main:Assets/_Bootcamp/Scenes/Final.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -1,21 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class ShieldOnFloor : MonoBehaviour
+public class ShieldOnFloor : MonoBehaviourPunCallbacks
 {
     public static ShieldOnFloor Instance;
     public GameObject lightPointOnWall;
+
+    [SerializeField] private GameObject _lightPointOnFloor;
+
     private void Awake()
     {
         Instance = this;
     }
+
     public void PlaceLightPoint()
+    {
+        photonView.RPC("PlaceLightPointRPC", RpcTarget.AllBuffered);
+    }
+
+    public void DestroyLightPoint()
+    {
+        photonView.RPC("DestroyLightPointRPC", RpcTarget.AllBuffered);
+    }
+
+    [PunRPC]
+    private void PlaceLightPointRPC()
     {
         lightPointOnWall.SetActive(true);
     }
-    public void DestroyLightPoint()
+    
+    [PunRPC]
+    private void DestroyLightPointRPC()
     {
-        this.gameObject.SetActive(false);
+        _lightPointOnFloor.SetActive(false);
     }
 }

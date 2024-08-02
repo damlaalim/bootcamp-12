@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class ObjectSpawner : MonoBehaviour
+public class ObjectSpawner : MonoBehaviourPunCallbacks
 {
+    public bool test;
+    
     public List<GameObject> objectPrefabs; 
     public Transform spawnPoint;
     public Transform finishPoint;
@@ -19,6 +22,7 @@ public class ObjectSpawner : MonoBehaviour
     private int currentPrefabIndex = 0;
     private int objectsInPlay = 0;
 
+    public Animator exitPlatformAnim, leftAnim, rightAnim;
     void Start()
     {
         currentSpawnRate = initialSpawnRate;
@@ -35,6 +39,13 @@ public class ObjectSpawner : MonoBehaviour
             SpawnObject();
             nextSpawnTime = Time.time + 1f / currentSpawnRate;
         }
+
+        if (test)
+        {
+            test = false;
+            photonView.RPC("EndGame", RpcTarget.AllBuffered);
+        }
+
     }
 
     void SpawnObject()
@@ -69,12 +80,15 @@ public class ObjectSpawner : MonoBehaviour
         objectsInPlay--;
         if (objectsInPlay == 0 && currentPrefabIndex >= objectPrefabs.Count)
         {
-            EndGame();
+            photonView.RPC("EndGame", RpcTarget.AllBuffered);
         }
     }
 
+    [PunRPC]
     void EndGame()
     {
-        //
+        exitPlatformAnim.SetBool("isGameEnded", true);
+        leftAnim.SetBool("isGameEnded", true);
+        rightAnim.SetBool("isGameEnded", true);
     }
 }
