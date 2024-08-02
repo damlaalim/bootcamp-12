@@ -15,7 +15,7 @@ public class Chat : MonoBehaviourPun
 
     public void SendMessage()
     {
-        GetComponent<PhotonView>().RPC("GetMessage",RpcTarget.All,(PhotonNetwork.NickName + " : " + inputField.text));
+       photonView.RPC("GetMessage",RpcTarget.All,(PhotonNetwork.NickName + " : " + inputField.text));
 
         inputField.text = "";
     }
