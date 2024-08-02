@@ -31018,7 +31018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86e1e4b1f024b1f8bd22dfeb6d82ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Final
+  SceneName: Reception
   _canvas: {fileID: 1901010687}
 --- !u!1 &1213582260
 GameObject:
@@ -49812,9 +49812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1657173985745892954, guid: eff5d75ac4c47dd41b9a59e9804b9868, type: 3}
       propertyPath: m_text
-      value: 'Click F to spawn Tutorial
-
-'
+      value: "Sonraki B\xF6l\xFCme Ge\xE7"
       objectReference: {fileID: 0}
     - target: {fileID: 1657173985745892954, guid: eff5d75ac4c47dd41b9a59e9804b9868, type: 3}
       propertyPath: m_fontColor.b
