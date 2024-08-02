@@ -12,16 +12,19 @@ Unity 12
   </thead>
   <tbody>
   <tr>
-      <th></th>
+      <th>
+        <img src ="https://github.com/user-attachments/assets/3f3e0f6f-3c0c-4043-9f4f-0631e6f6c468" width="100px" height="100px">
+      </th>
       <td>Burak Arslan</td>
       <td>Developer</td>
       <td>
-        <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
+        <a href="https://github.com/Burak-droid"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
         <a href="https://www.linkedin.com/in/burak-arslan-6844991b9/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
         <a href="#" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
-    </tr>  <tr>
-      <th></th>
+    </tr> 
+    <tr>
+      <th><img src ="https://github.com/user-attachments/assets/7f7f334d-6677-436a-9667-d514a84bbbcc" width="100px" height="100px"></th>
       <td>Dilara Hakyoldaş</td>
       <td>Developer / 3D Artist</td>
       <td>
@@ -31,27 +34,27 @@ Unity 12
       </td>
     </tr>
     <tr>
-      <th></th>
+      <th><img src ="https://github.com/user-attachments/assets/fafbea25-7946-4fc7-8edd-3372fddd7081" width="100px" height="100px"></th>
       <td>Berkay Sağdıç</td>
       <td>Developer</td>
       <td>
-        <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
+        <a href="https://github.com/LariXv1"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
         <a href="https://www.linkedin.com/in/berkay-sağdıç-b54754201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
         <a href="https://www.instagram.com/berkaysgdc?igsh=YXcza25laHU2OXQ3" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
     <tr>
-      <th></th>
+      <th><img src ="https://github.com/user-attachments/assets/2600cf1e-6e07-4a6d-ad8c-aa3a39b1a4b2" width="100px" height="100px"></th>
       <td>Buğra Mustafa Kasarcı</td>
       <td>Product Owner / Developer / 3D Artist</td>
       <td>
-        <a href="#"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
+        <a href="https://github.com/roketrig"><img width="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></a>&nbsp;
         <a href="https://www.linkedin.com/in/buğra-mustafa-kasarcı-823967248/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asdsad" height="30" width="22" /></a>&nbsp;
         <a href="https://www.instagram.com/azazel_sann?igsh=MWt1cjRsYmxubDc1eA==" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asdasd" height="30" width="25" /></a>
       </td>
     </tr>
     <tr>
-      <th></th>
+      <th><img src ="https://github.com/user-attachments/assets/74416517-eca8-48e5-a361-eb48b4c2d628" width="100px" height="100px"></th>
       <td>Damla Alim</td>
       <td>Scrum Master / Developer</td>
       <td>
@@ -68,19 +71,23 @@ Unity 12
   ## Ürün Bilgileri
   </summary>
   
+  ## Logo
+  ![2](https://github.com/user-attachments/assets/4bbfad05-f79e-4dd4-804e-c0bea8abc216)
+
   ## Ürün İsmi
   Deadly Jokes
   ## Ürün Açıklaması
   Bu oyun; doğa üstü bir diyarda geçen, oyuncuların bulmacalar çözerek ilerlemesini konu alan ve komedi unsurları içeren eşli bulmaca oyunudur.
   ## Ürün Özellikleri 
   * 3D 
-  * Multiplayer
-  * Yapay zeka ile desteklenmiş NPC'ler
+  * Multiplayer - Photon Unity Networking (PUN)
+  * Yapay zeka ile desteklenmiş NPC'ler (Convai - ücretsiz sürüm)
   * Gameanalytics
   ## Hedef Kitle 
   * 18-40 yaş arası gençler, yetişkinler, casual oyuncular<br>
   * Puzzle sevenler<br>
-  * PC oyuncuları
+  * PC oyuncuları<br>
+  * Eşli oyun oynamak isteyen oyuncular
   ## Ticarileştirme Mekaniği
   * Bu ürünün demosunun ücretsiz yayın platformlarında yayınlanmasına ve farklı bağış platformlarından oyunun geliştirilmesi için bağış toplanmasına karar verilmiştir.
 <details>
@@ -132,8 +139,12 @@ Unity 12
 <a href = "https://miro.com/app/board/uXjVK39cXO8=/?share_link_id=103924746273" target ="blank">Unity Takım - 12 Miro Backlog Board</a>
 ## Game Design Document URL
 <a href = "https://docs.google.com/document/d/1C1wG88VrsLhP53gUKr8G70yUAR4o-WW5Pq4IXdTWvxo/edit?usp=sharing" target ="blank">Unity Takım - 12 GDD</a>
+## Trailer URL
+<a href="">Deadly Jokes Video</a>
 ## Playlist URL
 Takımdaki herkesin sevdiği şarkıları eklediği ve çalışırken dinlediğimiz <a href = "https://open.spotify.com/playlist/23c1J5wlWcOJ7yCkH58QOq?si=e7ad3a4ede594fa0" target ="blank">çalma listemiz.</a>
+## Jüriye Not
+Convai'ın ücretsiz sürümü kullanılmıştır. Ekipteki herkes yazılım ile ilgilendiği için çevre elementleri hazır ücretsiz assetler kullanılarak yapılmıştır. Oyun iki kişi oynamak için uygundur.
 ## Sprintler
 
 <details>
@@ -219,5 +230,32 @@ Takımdaki herkesin sevdiği şarkıları eklediği ve çalışırken dinlediği
 <hr>
 <details>
   <summary><h3>Sprint 3 (22/07/24 - 02/08/24)</h3></summary>
-  
+  <details>
+    <summary><h3>Sprint Planning & Sprint Process</h3></summary>
+    
+  * <b>Sprint içinde tamamlanması tahmin edilen puan:</b> 45
+  * <b>Puan tamamlama mantığı:</b> Sprint için bitirilmesi istenilen puan sayısı 45 olarak belirlenmiştir ve hedefe ulaşılmıştır.<br>
+
+      ## Sprint Board Updates (Screenshots)
+      Sprint Task Puanı 115 puan olarak belirlenmiştir. Hedef ulaşılmıştır.
+
+      <a href="https://imgur.com/a/5o6gipF" target="_blank">Sprint Board Görselleri (OUA Bootcamp U12)</a>
+       ## Ürün Görselleri 
+      <a href="" target="_blank">Ürün Görselleri (OUA Bootcamp U12)</a><br>
+      ## Daily Scrum Görselleri
+      <a href="">Daily Scrum Görselleri (OUA Bootcamp U12)</a>
+  </details>
+  <details>
+      <summary><h3> Sprint Review & Sprint Retrospective</h3></summary>
+
+  * <b>Sprint Review Katılımcıları:</b> Damla Alim, Berkay Sağdıç, Buğra Mustafa Kasarcı, Dilara Hakyoldaş, Burak Arslan
+  * <b>Sprint Review:</b> Alınan Kararlar,
+    1. Projenin geliştirilme süreci boyunca takımın iletişimi ve takım ruhunun korunmuş olması hakkında konuşuldu.
+    2. Oyuna hedeflenen özellikler entegre edilmiştir.
+    3. Genel ilerleyiş hakkında değerlendirme yapıldı ve test edildi.
+   
+  * <b>Sprint Retrospective:</b>
+     1. İlerleyen dönemde iletişimde kalınması hakkında konuşulmuştur.
+    
+  </details>
 </details>
