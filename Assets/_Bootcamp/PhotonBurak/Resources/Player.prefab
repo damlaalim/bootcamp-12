@@ -259,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 289292.47, y: 141623.7}
+  m_AnchoredPosition: {x: 7664.1978, y: 3809.2488}
   m_SizeDelta: {x: 240, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3232908546141551965
@@ -302,6 +302,92 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!1 &2303934680934384281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3682779788067474368}
+  - component: {fileID: 3146914647817715988}
+  - component: {fileID: 1492271373556779957}
+  - component: {fileID: 8822389944638555199}
+  m_Layer: 0
+  m_Name: Chat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3682779788067474368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303934680934384281}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7195001920093978203}
+  m_Father: {fileID: 7475240534361454400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3146914647817715988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303934680934384281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54630857c1532d4c88652bfcf562d12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 7307637379908729530}
+  MessagePhoton: {fileID: 5080201705790981622, guid: 686ab1cdfb8aabd4f9b1cbe884136397, type: 3}
+  Content: {fileID: 2074474495138103727}
+--- !u!114 &1492271373556779957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303934680934384281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d897c7252ba498cb1f86389e404d6cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _character: {fileID: 5495063849388032811}
+  Canvas: {fileID: 7446912902895699528}
+--- !u!114 &8822389944638555199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303934680934384281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &2686925644655254559
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,7 +714,7 @@ Transform:
   - {fileID: 3606558931912006243}
   - {fileID: 8051610261074417165}
   - {fileID: 8013930554762967928}
-  - {fileID: 7195001920093978203}
+  - {fileID: 3682779788067474368}
   - {fileID: 2002938170694337892}
   - {fileID: 7193570366089944981}
   m_Father: {fileID: 0}
@@ -1416,9 +1502,6 @@ GameObject:
   - component: {fileID: 7446912902895699528}
   - component: {fileID: 5182055389371986923}
   - component: {fileID: 7164895081094309246}
-  - component: {fileID: 6844213488951030697}
-  - component: {fileID: 7941614842115286713}
-  - component: {fileID: 8172764855590408398}
   m_Layer: 5
   m_Name: ChatCanvas
   m_TagString: Untagged
@@ -1441,7 +1524,7 @@ RectTransform:
   - {fileID: 3549793323760924186}
   - {fileID: 4008076952417735330}
   - {fileID: 6658573924919357544}
-  m_Father: {fileID: 7475240534361454400}
+  m_Father: {fileID: 3682779788067474368}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1511,57 +1594,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6844213488951030697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8157843058091683672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f54630857c1532d4c88652bfcf562d12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputField: {fileID: 7307637379908729530}
-  MessagePhoton: {fileID: 5080201705790981622, guid: 686ab1cdfb8aabd4f9b1cbe884136397, type: 3}
-  Content: {fileID: 2074474495138103727}
---- !u!114 &7941614842115286713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8157843058091683672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
---- !u!114 &8172764855590408398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8157843058091683672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d897c7252ba498cb1f86389e404d6cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _character: {fileID: 5495063849388032811}
-  Canvas: {fileID: 7446912902895699528}
 --- !u!1 &8299007072438661319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,7 +1715,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6844213488951030697}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Chat, Assembly-CSharp
         m_MethodName: SendMessage
         m_Mode: 1

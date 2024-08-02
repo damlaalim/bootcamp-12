@@ -15,17 +15,16 @@ public class Chat : MonoBehaviourPunCallbacks
 
     public void SendMessage()
     {
-        photonView.RPC("GetMessage",RpcTarget.All,(PhotonNetwork.NickName + " : " + inputField.text));
+        string message = PhotonNetwork.NickName + " : " + inputField.text;
+        photonView.RPC("ReceiveMessage", RpcTarget.All, message, Content);
 
         inputField.text = "";
     }
 
     [PunRPC]
-    public void GetMessage(string receiveMessage)
+    public void ReceiveMessage(string message, Transform content)
     {
-        GameObject M = Instantiate(MessagePhoton, Vector3.zero, Quaternion.identity, Content.transform);
-        M.GetComponent<MessagePhoton>().MyMessage.text = receiveMessage;
+        var messageObject = Instantiate(MessagePhoton, Vector3.zero, Quaternion.identity, content);
+        messageObject.GetComponent<MessagePhoton>().MyMessage.text = message;
     }
-    
-    
 }
