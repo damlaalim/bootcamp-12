@@ -19199,6 +19199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: MinigameOne
+  analyticsManager: {fileID: 0}
   _canvas: {fileID: 937382739}
 --- !u!135 &1110695667
 SphereCollider:
@@ -25495,8 +25496,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.3134207, y: 4.6547894, z: 0.91017824}
-  m_Center: {x: 1.769769, y: 2.3100684, z: -0.0000009834766}
+  m_Size: {x: 1.2218527, y: 4.6547894, z: 0.91017824}
+  m_Center: {x: 1.815553, y: 2.3100684, z: -0.0000009834766}
 --- !u!1001 &1527479732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35652,8 +35653,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.3526708, y: 4.6547894, z: 0.91017824}
-  m_Center: {x: 1.7501402, y: 2.3100684, z: -0.0000009834769}
+  m_Size: {x: 1.1472532, y: 4.6547894, z: 0.91017824}
+  m_Center: {x: 1.852849, y: 2.3100684, z: -0.0000009834764}
 --- !u!65 &2030278226
 BoxCollider:
   m_ObjectHideFlags: 0
