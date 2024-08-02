@@ -36,7 +36,6 @@ namespace _Bootcamp.Scripts.Interactable
             if (gameObject.tag == "SwitchOnWall")
             {
                 SwitchOnWall.Instance.WallSwitch();
-                SwitchOnWall.Instance.WallSwitchRPC();
             }
         }
 

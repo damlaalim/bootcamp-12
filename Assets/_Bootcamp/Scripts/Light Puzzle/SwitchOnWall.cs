@@ -18,8 +18,9 @@ public class SwitchOnWall : MonoBehaviourPunCallbacks
     }
 
     [PunRPC]
-   public  void WallSwitchRPC()
+   private  void WallSwitchRPC()
     {
+        platformAnim.SetTrigger("SwitchPulled");
         switchAnim.SetTrigger("switchAnim");
     }
 }
