@@ -1615,7 +1615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -1656,7 +1655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -2966,7 +2964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -3007,7 +3004,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -5032,7 +5028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -5073,7 +5068,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -8085,7 +8079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -8126,7 +8119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -8555,7 +8547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -8596,7 +8587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -8805,7 +8795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -8846,7 +8835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -11218,7 +11206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -11259,7 +11246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -13229,7 +13215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -13270,7 +13255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -19367,7 +19351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -19408,7 +19391,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -23362,7 +23344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -23403,7 +23384,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -24505,7 +24485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -24546,7 +24525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -26247,7 +26225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -26288,7 +26265,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -26950,7 +26926,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -26991,7 +26966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -27262,7 +27236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -27303,7 +27276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -29666,7 +29638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -29707,7 +29678,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -30225,7 +30195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668735768885291391, guid: 91ad7bf144749b04ab484a680630a040, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.552674
+      value: -8.052674
       objectReference: {fileID: 0}
     - target: {fileID: 668735768885291391, guid: 91ad7bf144749b04ab484a680630a040, type: 3}
       propertyPath: m_LocalPosition.y
@@ -32780,7 +32750,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -32821,7 +32790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -33759,7 +33727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -33800,7 +33767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -34139,7 +34105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -34180,7 +34145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -35750,7 +35714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -35791,7 +35754,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -35931,7 +35893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -35972,7 +35933,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -38972,7 +38932,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -39013,7 +38972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -39380,7 +39338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -39421,7 +39378,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -39556,7 +39512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -39597,7 +39552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -41307,7 +41261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -41348,7 +41301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -42604,7 +42556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -42645,7 +42596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -43414,7 +43364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -43455,7 +43404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -44679,7 +44627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -44720,7 +44667,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -46265,7 +46211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -46306,7 +46251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -47125,7 +47069,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -47166,7 +47109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -49012,7 +48954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -49053,7 +48994,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -49188,7 +49128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -49229,7 +49168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -50084,7 +50022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -50125,7 +50062,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -56962,7 +56898,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -57003,7 +56938,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -58736,7 +58670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -58777,7 +58710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -59208,7 +59140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -59249,7 +59180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -59650,7 +59580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -59691,7 +59620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -60085,7 +60013,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -60126,7 +60053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -60689,7 +60615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -60730,7 +60655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -62666,7 +62590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -62707,7 +62630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -64294,7 +64216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -64335,7 +64256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
