@@ -156,13 +156,11 @@ public class PhotonCharacterController : MonoBehaviourPun
             _anim.CrossFade("Dance1", .1f);
             photonView.RPC("UpdateAnimation", RpcTarget.Others, "Dance1", .1f);
         }
-
         else if (_playerInput.Danced2ThisFrame())
         {
             _anim.CrossFade("Dance2", .1f);
             photonView.RPC("UpdateAnimation", RpcTarget.Others, "Dance2", .1f);
         }
-
         else
             return;
 
