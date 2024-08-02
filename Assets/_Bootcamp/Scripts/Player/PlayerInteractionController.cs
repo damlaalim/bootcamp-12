@@ -60,6 +60,9 @@ namespace _Bootcamp.Scripts.Player
                 _lastInteractable?.ShowCanvas(false);
                 _interactable.ShowCanvas(true);
                 _lastInteractable = _interactable;
+                var mainCamRot = _mainCam.transform.rotation;
+                hit.transform.LookAt(hit.transform.position + mainCamRot * Vector3.forward,
+                    mainCamRot * Vector3.up);
             }
             else if (!canInteractable && _lastInteractable is not null)
             {

@@ -10904,9 +10904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1657173985745892954, guid: eff5d75ac4c47dd41b9a59e9804b9868, type: 3}
       propertyPath: m_text
-      value: 'Click F to spawn Tutorial
-
-'
+      value: "Tutoriala Ba\u015Fla"
       objectReference: {fileID: 0}
     - target: {fileID: 1657173985745892954, guid: eff5d75ac4c47dd41b9a59e9804b9868, type: 3}
       propertyPath: m_fontColor.b
@@ -10930,7 +10928,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4454003540929545437, guid: eff5d75ac4c47dd41b9a59e9804b9868, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187375114585954971, guid: eff5d75ac4c47dd41b9a59e9804b9868, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
