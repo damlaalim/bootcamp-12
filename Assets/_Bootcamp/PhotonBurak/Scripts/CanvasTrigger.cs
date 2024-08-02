@@ -18,7 +18,7 @@ namespace _Bootcamp.PhotonBurak.Scripts
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.K) && Canvas != null && photonView.IsMine)
+            if (Input.GetKeyDown(KeyCode.K) && Canvas != null)
             {
                 var enabled = !Canvas.enabled;
                 Canvas.enabled = enabled;
