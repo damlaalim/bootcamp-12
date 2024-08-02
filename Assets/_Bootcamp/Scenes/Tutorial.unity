@@ -1549,6 +1549,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1774100694}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1774100696}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!4 &229258702 stripped
 Transform:
@@ -2137,6 +2140,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1334620521}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1334620523}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!1001 &339655194
 PrefabInstance:
@@ -2305,6 +2311,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1018117676}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1018117678}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!4 &356580105 stripped
 Transform:
@@ -7270,6 +7279,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1803153357}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1803153359}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!4 &386780390 stripped
 Transform:
@@ -7359,6 +7371,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 408683398}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 408683400}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!4 &408683396 stripped
 Transform:
@@ -7382,7 +7397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -7411,6 +7425,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &408683400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408683397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 8
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &410136172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8027,6 +8063,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 958396870}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 958396872}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!1001 &460154921
 PrefabInstance:
@@ -8110,6 +8149,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 542881144}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 542881146}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!4 &466626661 stripped
 Transform:
@@ -8128,7 +8170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -8136,6 +8177,28 @@ MonoBehaviour:
   _fallDelay: 1
   _showDelay: 1
   _returnDelay: 5
+--- !u!114 &466626665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130568972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 22
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &466846263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8217,6 +8280,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2073955357}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2073955359}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!4 &468862488 stripped
 Transform:
@@ -8343,7 +8409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -8372,6 +8437,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &542881146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542881141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 30
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &544749167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8557,6 +8644,8 @@ GameObject:
   - component: {fileID: 554275443}
   - component: {fileID: 554275442}
   - component: {fileID: 554275447}
+  - component: {fileID: 554275449}
+  - component: {fileID: 554275448}
   m_Layer: 0
   m_Name: AnimatedColumn (3)
   m_TagString: Untagged
@@ -8689,6 +8778,47 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000019669533, y: 0.71262217, z: 0.000021129847}
+--- !u!114 &554275448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554275441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 27
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &554275449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554275441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platformIsTimeLimited: 0
+  _visible: 1
+  _countdownDelay: 0
+  _initPosY: 0
+  _fallDelay: 0
+  _showDelay: 0
+  _returnDelay: 5
 --- !u!1 &561038915 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011805932688, guid: cd293c9fb680c0a48a3e42cf077eef1c, type: 3}
@@ -9016,6 +9146,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2099806525}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2099806527}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1 &597508548
 GameObject:
@@ -9468,7 +9601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -9497,6 +9629,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &653095777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343242239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 9
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &653920599
 GameObject:
   m_ObjectHideFlags: 0
@@ -9589,7 +9743,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -9618,6 +9771,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &673366217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253143213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 35
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &682042578
 GameObject:
   m_ObjectHideFlags: 0
@@ -9834,6 +10009,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &701783213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701783205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platformIsTimeLimited: 0
+  _visible: 1
+  _countdownDelay: 0
+  _initPosY: 0
+  _fallDelay: 0
+  _showDelay: 0
+  _returnDelay: 5
 --- !u!1 &708054456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -9951,7 +10145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -9980,6 +10173,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &721195996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721195991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 28
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &730062801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10659,6 +10874,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1475439587}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1475439589}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!4 &791876101 stripped
 Transform:
@@ -10966,7 +11184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -10995,6 +11212,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &853711475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853711470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 34
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!4 &858325726 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
@@ -11012,7 +11251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -11041,6 +11279,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &858325731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268368834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 11
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &858613042 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -11104,6 +11364,8 @@ GameObject:
   - component: {fileID: 865234125}
   - component: {fileID: 865234124}
   - component: {fileID: 865234129}
+  - component: {fileID: 865234131}
+  - component: {fileID: 865234130}
   m_Layer: 0
   m_Name: AnimatedColumn (5)
   m_TagString: Untagged
@@ -11236,6 +11498,47 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000019669533, y: 0.71262026, z: 0.000021129847}
+--- !u!114 &865234130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865234123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 26
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &865234131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865234123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platformIsTimeLimited: 0
+  _visible: 1
+  _countdownDelay: 0
+  _initPosY: 0
+  _fallDelay: 0
+  _showDelay: 0
+  _returnDelay: 5
 --- !u!4 &866518299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -11553,7 +11856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -11582,6 +11884,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &921679649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357907702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 21
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!4 &934098428 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4709528127833354, guid: a5b2c973fbd4bcf49b07ded49a003a51, type: 3}
@@ -11793,6 +12117,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2058061688}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2058061690}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!4 &958396867 stripped
 Transform:
@@ -11832,7 +12159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -11840,6 +12166,28 @@ MonoBehaviour:
   _fallDelay: 0
   _showDelay: 1
   _returnDelay: 0
+--- !u!114 &958396872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697533261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 7
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &962752783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11918,6 +12266,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1958853983}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1958853985}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!4 &965849459 stripped
 Transform:
@@ -16929,7 +17280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -16958,6 +17308,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &1018117678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018117673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 18
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1023181641 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -17081,7 +17453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -17205,7 +17576,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -17213,6 +17583,28 @@ MonoBehaviour:
   _fallDelay: 0
   _showDelay: 1
   _returnDelay: 0
+--- !u!114 &1039849768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039849763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 24
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!4 &1044188849 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -17296,6 +17688,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1039849766}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1039849768}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!1001 &1052200606
 PrefabInstance:
@@ -17516,6 +17911,47 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &1061413955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061413947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platformIsTimeLimited: 0
+  _visible: 1
+  _countdownDelay: 0
+  _initPosY: 0
+  _fallDelay: 0
+  _showDelay: 0
+  _returnDelay: 5
+--- !u!114 &1061413956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061413947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 36
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1061505156 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -17585,7 +18021,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -17626,7 +18061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -17655,6 +18089,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1068747116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325650867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 10
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1071274464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000012196965144, guid: 0c5f7623cfebe9947bd7428d92b7b453, type: 3}
@@ -17837,7 +18293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -17866,6 +18321,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1109164969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028763762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 33
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1111810331 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -18031,6 +18508,7 @@ GameObject:
   - component: {fileID: 1150457086}
   - component: {fileID: 1150457092}
   - component: {fileID: 1150457091}
+  - component: {fileID: 1150457093}
   m_Layer: 0
   m_Name: AnimatedColumn (2)
   m_TagString: Untagged
@@ -18154,7 +18632,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -18183,6 +18660,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000005364418, y: 0.71262026, z: 0.000021845102}
+--- !u!114 &1150457093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150457085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 17
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!4 &1157049240 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -18441,7 +18940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -18885,6 +19383,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1962270584}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1962270586}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1 &1244596548
 GameObject:
@@ -19074,7 +19575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -19274,7 +19774,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -19303,6 +19802,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1261090273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151243575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 12
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1264547859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000010453376788, guid: fb3a4b18d9ce9094897a60bd8bf5610e, type: 3}
@@ -19595,12 +20116,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
-  _platformIsTimeLimited: 0
+  _platformIsTimeLimited: 1
   _visible: 0
-  _countdownDelay: 0
+  _countdownDelay: 2
   _initPosY: 0
-  _fallDelay: 0
+  _fallDelay: 1
   _showDelay: 1
   _returnDelay: 5
 --- !u!65 &1311473684
@@ -19706,6 +20226,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1588108042}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1588108044}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1001 &1325395146
 PrefabInstance:
@@ -19902,7 +20425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -19910,6 +20432,28 @@ MonoBehaviour:
   _fallDelay: 0
   _showDelay: 1
   _returnDelay: 0
+--- !u!114 &1334620523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334620518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 23
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!4 &1335436044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
@@ -19927,7 +20471,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -20148,6 +20691,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 858325729}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 858325731}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1 &1347608164 stripped
 GameObject:
@@ -20166,7 +20712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -20250,6 +20795,8 @@ GameObject:
   - component: {fileID: 1370878862}
   - component: {fileID: 1370878861}
   - component: {fileID: 1370878866}
+  - component: {fileID: 1370878868}
+  - component: {fileID: 1370878867}
   m_Layer: 0
   m_Name: AnimatedColumn (4)
   m_TagString: Untagged
@@ -20382,6 +20929,47 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000019669533, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &1370878867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370878860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 25
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &1370878868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370878860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platformIsTimeLimited: 0
+  _visible: 1
+  _countdownDelay: 0
+  _initPosY: 0
+  _fallDelay: 0
+  _showDelay: 0
+  _returnDelay: 5
 --- !u!1 &1373637884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
@@ -20399,7 +20987,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -20428,6 +21015,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1373637889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373637884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 6
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1374122734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20510,6 +21119,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 853711473}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 853711475}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!4 &1378160629 stripped
 Transform:
@@ -20533,7 +21145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -20846,7 +21457,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -21064,6 +21674,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2142255041}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2142255043}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1001 &1428502758
 PrefabInstance:
@@ -21251,7 +21864,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -21280,6 +21892,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &1467472739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467472734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 15
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1471394082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21358,6 +21992,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 701783212}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 701783213}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!1 &1475439584 stripped
 GameObject:
@@ -21376,7 +22013,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -21405,6 +22041,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1475439589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475439584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 32
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!4 &1475496143 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -21427,7 +22085,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -21456,6 +22113,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1483055645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483055640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 31
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1487978272 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011805932688, guid: cd293c9fb680c0a48a3e42cf077eef1c, type: 3}
@@ -21842,7 +22521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -22131,7 +22809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -22160,6 +22837,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1588108044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588108039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 5
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1597231485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22318,6 +23017,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 721195994}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 721195996}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!4 &1600289371 stripped
 Transform:
@@ -27728,6 +28430,7 @@ GameObject:
   - component: {fileID: 1655252785}
   - component: {fileID: 1655252787}
   - component: {fileID: 1655252786}
+  - component: {fileID: 1655252788}
   m_Layer: 0
   m_Name: AnimatedColumn (1)
   m_TagString: Untagged
@@ -27851,7 +28554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -27880,6 +28582,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262026, z: 0.000021845102}
+--- !u!114 &1655252788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655252780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 14
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!4 &1657765778 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
@@ -27897,7 +28621,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -27975,6 +28698,47 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &1663355722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663355714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 37
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &1663355723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663355714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platformIsTimeLimited: 0
+  _visible: 1
+  _countdownDelay: 0
+  _initPosY: 0
+  _fallDelay: 0
+  _showDelay: 0
+  _returnDelay: 5
 --- !u!1001 &1665531168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28443,6 +29207,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1663355721}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1663355723}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1663355722}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!4 &1680020466 stripped
 Transform:
@@ -28558,6 +29328,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1068747114}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1068747116}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1 &1688593324 stripped
 GameObject:
@@ -28602,8 +29375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
-  _platformIsTimeLimited: 0
+  _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 0
   _initPosY: 0
@@ -28648,7 +29420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -28656,6 +29427,28 @@ MonoBehaviour:
   _fallDelay: 1
   _showDelay: 1
   _returnDelay: 5
+--- !u!114 &1693857349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362206910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 20
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1695314292 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000012532844146, guid: 0c5f7623cfebe9947bd7428d92b7b453, type: 3}
@@ -29166,6 +29959,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 653095775}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 653095777}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1001 &1728188186
 PrefabInstance:
@@ -29344,7 +30140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -29573,7 +30368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -29602,6 +30396,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1774100696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647392435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 29
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1784728858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29747,7 +30563,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -29755,6 +30570,28 @@ MonoBehaviour:
   _fallDelay: 0
   _showDelay: 1
   _returnDelay: 0
+--- !u!114 &1803153359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803153354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 4
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1803615994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29834,6 +30671,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 466626664}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 466626665}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!4 &1810015092 stripped
 Transform:
@@ -30408,6 +31248,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1261090271}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1261090273}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1001 &1864638517
 PrefabInstance:
@@ -30695,6 +31538,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1109164967}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1109164969}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1 &1881069556
 GameObject:
@@ -31040,7 +31886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -31133,7 +31978,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -31158,7 +32002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -31498,6 +32341,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1061413954}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061413956}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061413955}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!1001 &1945393271
 PrefabInstance:
@@ -31581,6 +32430,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1483055643}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1483055645}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1001 &1948347090
 PrefabInstance:
@@ -31660,6 +32512,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1467472737}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1467472739}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!1 &1958853980 stripped
 GameObject:
@@ -31699,7 +32554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -31707,6 +32561,28 @@ MonoBehaviour:
   _fallDelay: 0
   _showDelay: 1
   _returnDelay: 0
+--- !u!114 &1958853985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958853980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 3
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!4 &1960087877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -31815,6 +32691,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1373637887}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1373637889}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!4 &1962270581 stripped
 Transform:
@@ -31833,7 +32712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -31862,6 +32740,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &1962270586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239681545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 16
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1975266102 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -32091,6 +32991,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 921679647}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 921679649}
   m_SourcePrefab: {fileID: 100100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
 --- !u!4 &1991395399 stripped
 Transform:
@@ -32216,7 +33119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -32272,7 +33174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -32399,7 +33300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -32630,7 +33530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -32659,6 +33558,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &2058061690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734798352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 19
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &2058079207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -32903,7 +33824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 0
   _visible: 0
   _countdownDelay: 0
@@ -32932,6 +33852,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9532981, y: 1.4304559, z: 1.9532971}
   m_Center: {x: -0.0000014901161, y: 0.71262217, z: 0.000019222498}
+--- !u!114 &2073955359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073955352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 2
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &2078119229 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -33282,7 +34224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -33311,6 +34252,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &2099806527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099806522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &2099842214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33675,6 +34638,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1693857348}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1693857349}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1 &2142255038 stripped
 GameObject:
@@ -33693,7 +34659,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5f0869a15a4a848ddb6210f9ae0408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrap: 0
   _platformIsTimeLimited: 1
   _visible: 0
   _countdownDelay: 2
@@ -33722,6 +34687,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9040779, y: 0.18631116, z: 1.9040679}
   m_Center: {x: -0.0000007748604, y: 0.034041304, z: -0.00000023841858}
+--- !u!114 &2142255043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142255038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 13
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &2144171867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33880,6 +34867,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
       insertIndex: -1
       addedObject: {fileID: 673366215}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 673366217}
   m_SourcePrefab: {fileID: 100100000, guid: 2bd0c0c6ab4c1f5499310c53e6aea191, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
