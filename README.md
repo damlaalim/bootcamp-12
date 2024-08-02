@@ -141,7 +141,7 @@ Unity 12
 ## Game Design Document URL
 <a href = "https://docs.google.com/document/d/1C1wG88VrsLhP53gUKr8G70yUAR4o-WW5Pq4IXdTWvxo/edit?usp=sharing" target ="blank">Unity Takım - 12 GDD</a>
 ## Trailer URL
-<a href="">Deadly Jokes Video</a>
+<a href="https://youtu.be/kv4C_Ic69SM">Deadly Jokes Video</a>
 ## Playlist URL
 Takımdaki herkesin sevdiği şarkıları eklediği ve çalışırken dinlediğimiz <a href = "https://open.spotify.com/playlist/23c1J5wlWcOJ7yCkH58QOq?si=e7ad3a4ede594fa0" target ="blank">çalma listemiz.</a>
 ## Jüriye Not
