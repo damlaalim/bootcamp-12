@@ -9571,6 +9571,223 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 7c9fb993626aaf8488be64eb9feadbbc, type: 3}
   m_PrefabInstance: {fileID: 622865362}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &628814335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.878315
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.1000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400690284913804883, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_Name
+      value: 'Dialogue '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2560793511096726001, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.342
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6590f63ee176b86418efe245d7ec2925, type: 2}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 628814336}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: TextComponent
+      value: 
+      objectReference: {fileID: 628814337}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: "Hareketli platformlar, dikkat edin de aya\u011F\u0131n\u0131z\u0131
+        kayd\u0131rmayay\u0131m."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: "Kayd\u0131rmak istesem kayd\u0131r\u0131r\u0131mda herneyse deneyin
+        bakal\u0131m."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: "Zaten sizi i\u015Fe al\u0131rken \xE7okta c\u0131l\u0131zd\u0131n\u0131z
+        pek g\xFCvenemedim ama \xFCstten geldi emir ne yapal\u0131m."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: "Hadi deneyin e\u011Flendirin beni biraz."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[4]
+      value: "Nas\u0131l yani?  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: "Ge\xE7en ofiste konu\u015Furlarken duydum galiba tanr\u0131 bu sene
+        ki zamm\u0131 az yapm\u0131\u015F. Patronda isyanda do\u011Fal olarak. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[6]
+      value: "Ke\u015Fke bizim maa\u015Flara da zam yapsa 1 g\xFCnah azaltma jetonu
+        \xE7ok az. Madem kendisi \xE7ok \xFCzg\xFCn bize de zam yaps\u0131n valla
+        ge\xE7inemiyoruz. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[7]
+      value: "Biz maa\u015F alm\u0131yoruz ki  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[8]
+      value: "Biliyorum alsak iyi olurdu ama nas\u0131l fikir her i\u015F sonu bir
+        jeton alsak daha motive olur\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[9]
+      value: "Sesinizi kesin ve g\xF6zl\xFC\u011F\xFCm\xFC bulun  sizin geyi\u011Finiz
+        y\xFCz\xFCnden u\xE7a\u011F\u0131ma ge\xE7 kalaca\u011F\u0131m."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: f7392f9c84346df469d3f750b0e243b6, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 24272823c24ce4f4ebd28816fd0afeab, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 84929386b34723f499e6fc0aaef34be9, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: a7d5329a18e4e834f9af6dc3358ae0f4, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: d7ca3b62377631041845ab86f1950206, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6098190113a67d8488521b2e140e7e0f, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: d7e8a4ac7f96cb440bf357d98a98d766, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: bbe1296543526fc43b98caea9ac2f418, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4061b5b206163f04d8199d449623abc3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+--- !u!223 &628814336 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 8438878175922649246, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+  m_PrefabInstance: {fileID: 628814335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &628814337 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+  m_PrefabInstance: {fileID: 628814335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &633007379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000012196965144, guid: 0c5f7623cfebe9947bd7428d92b7b453, type: 3}
@@ -11853,6 +12070,322 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013552962000, guid: cd293c9fb680c0a48a3e42cf077eef1c, type: 3}
   m_PrefabInstance: {fileID: 55519014}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &899327729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.621685
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.849998
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -86.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363530526170024438, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400690284913804883, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_Name
+      value: Dialogue_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2560793511096726001, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.342
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6590f63ee176b86418efe245d7ec2925, type: 2}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 899327730}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: TextComponent
+      value: 
+      objectReference: {fileID: 899327731}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: "\u0130yi iyi platforma geldiniz \u015Fa\u015F\u0131rt\u0131c\u0131"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: "O kadar z\u0131plamak iyi gelmi\u015Ftir \u0131s\u0131nm\u0131\u015Fs\u0131n\u0131zd\u0131r."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: "Ben size demedimmi benim d\u0131\u015F\u0131mda kimse bu telefonu kullanmayacak
+        diye haftal\u0131k sprinte az kald\u0131 tanr\u0131 ar\u0131yor telefonu
+        a\xE7am\u0131yorum. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: "Meraklanma patron bizim bir IT ci \xE7ocuk var halleder. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[4]
+      value: "IT cimi? bizim ne zamandan beri IT ci \xE7al\u0131\u015Fanlar\u0131m\u0131z
+        var? ayr\u0131ca onlar telefondan ne anlar ki? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: "Tanr\u0131 istedi san\u0131r\u0131m bilgisayar\u0131na vir\xFCs bula\u015Fm\u0131\u015F
+        o zamandan beri bir IT tak\u0131m\u0131m\u0131z var. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[6]
+      value: 'Ya tamam da telefonu tamir edebileceklermi? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[7]
+      value: "Teknolojiden anl\u0131yorlar hallederler heralde hemen ba\u011Fl\u0131yorum... "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[8]
+      value: "Telefonun \xE7al\u0131yor. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[9]
+      value: Alo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[10]
+      value: "Hey IT ci tak\u0131m\u0131n\u0131 topla ve h\u0131zl\u0131ca patronun
+        odas\u0131na git. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[11]
+      value: 'IT cimi?  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[12]
+      value: "Evet ITci hani sizinle konu\u015Fmu\u015Ftuk ya yeni IT tak\u0131m\u0131n\u0131n
+        kazananlar\u0131 sizsiniz diye. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[13]
+      value: "Nas\u0131l ya? ben telefonum oldu\u011Funu bile yeni \xF6\u011Freniyorum
+        nas\u0131l IT deyim ben bilgisayardan anlamam ki. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[14]
+      value: "Meraklanma zaten bilgsayarda i\u015Fin yok telefona bakacaks\u0131n. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[15]
+      value: "O daha k\xF6t\xFC. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[16]
+      value: "Art\u0131k ben bir IT ciyim. Galiba terfi ettim. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[17]
+      value: "K\xF6t\xFC olmu\u015F. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[18]
+      value: "Evet k\xF6t\xFC oldu onca i\u015Fimiz varken... "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[19]
+      value: "Hay\u0131r ben ona k\xF6t\xFC oldu demedim benim gibi biri varken seni
+        neden terfi ettiriyor patron anlamad\u0131m. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[20]
+      value: "Nas\u0131l ya onca zaman i\u015Fleri bitiren benim ayr\u0131ca bunu
+        patron se\xE7memi\u015F \xFCstten gelmi\u015F bu istek. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[21]
+      value: "Tanr\u0131 m\u0131 se\xE7mi\u015F yani nas\u0131l ya sen \u015Fimdi
+        The chosen one m\u0131s\u0131n. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: Lines.Array.data[22]
+      value: "Hi\xE7 odaklanm\u0131yorsun hemde hi\xE7 on\xFCm\xFCzde 50 tane engel
+        var \u015Funlar\u0131 bitirelim konu\u015Furuz. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4ff2467a9b5b23e46a22c7daee2fcff4, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 29a8a055ab87c604fb0308445ed15949, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 118effda76f41ae4a97f3c249b9632f4, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: d9fb8e77365a91248828f0f32225e552, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7940ffd8665556a44b1f4220dfe35265, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 339d9ea30c109894fb34484d1a9887f4, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4821a17110db3d54e9d59d4d4ad7ac91, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: c9beaeef09668f04f956e4c4c27c5053, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 215783287cebf2e4d908031f31fbaab6, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: ca9be830b8be2174d9cb9535daec1097, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d699ca1e7661bb4789d8b350747fadf, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: d9fb8e77365a91248828f0f32225e552, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[12]
+      value: 
+      objectReference: {fileID: 8300000, guid: dc0bab95990192b48ae8d503a1221465, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[13]
+      value: 
+      objectReference: {fileID: 8300000, guid: e6975f77a238c2c4db0a87e6d2b64821, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[14]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2bdc9a86ba9d1cd4b9a516cc6826c387, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[15]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0dab00c6e5b57874997df0862ba0ebe7, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[16]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7dfe9c7a0822448498140b672f48aafe, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[17]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2a39139f0a94759478cd3f6127dfce8b, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[18]
+      value: 
+      objectReference: {fileID: 8300000, guid: 80ec8962208c0664c974a8fc85a34e60, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[19]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1b45f63a03882a243b67bddbd8b2a907, type: 3}
+    - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: AudioClips.Array.data[20]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1b45f63a03882a243b67bddbd8b2a907, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+--- !u!223 &899327730 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 8438878175922649246, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+  m_PrefabInstance: {fileID: 899327729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &899327731 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+  m_PrefabInstance: {fileID: 899327729}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &902511037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -34991,3 +35524,5 @@ SceneRoots:
   - {fileID: 584310818}
   - {fileID: 1851529489}
   - {fileID: 682042583}
+  - {fileID: 628814335}
+  - {fileID: 899327729}

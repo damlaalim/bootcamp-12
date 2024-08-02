@@ -2559,6 +2559,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Dialogue '
       objectReference: {fileID: 0}
+    - target: {fileID: 2560793511096726001, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_margin.x
+      value: 120.105835
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403839797080979573, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

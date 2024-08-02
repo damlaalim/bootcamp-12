@@ -21279,7 +21279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2560793511096726001, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5443796107734720611, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21312,7 +21312,7 @@ PrefabInstance:
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: NextSceneIU
       value: 
-      objectReference: {fileID: 1210760275}
+      objectReference: {fileID: 0}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: Lines.Array.data[0]
       value: Kendimi iyti hissediyorm
@@ -21324,11 +21324,11 @@ PrefabInstance:
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: AudioClips.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 9a852f8cff2107f46b9a14e9336ad9fe, type: 3}
+      objectReference: {fileID: 8300000, guid: 408b3c9faeba0f14694c06aeace6776e, type: 3}
     - target: {fileID: 8022050009021077742, guid: 6930668dffb6b6042a2b82271bb24317, type: 3}
       propertyPath: AudioClips.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 9a852f8cff2107f46b9a14e9336ad9fe, type: 3}
+      objectReference: {fileID: 8300000, guid: 7c0bc9a2d1e6e104d9874b7544f48d22, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31132,7 +31132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86e1e4b1f024b1f8bd22dfeb6d82ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Reception
+  SceneName: Tutorial
   _canvas: {fileID: 1901010687}
 --- !u!1 &1213582260
 GameObject:
@@ -74618,3 +74618,4 @@ SceneRoots:
   - {fileID: 1972230762}
   - {fileID: 254604189}
   - {fileID: 1327296315}
+  - {fileID: 784278869}
