@@ -9824,6 +9824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605791adeb389b040a7e3132f6bc4cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftPosition: {x: 2.3927536, y: 26.175583, z: 44.443092}
+  rightPosition: {x: -28.816462, y: 7.124775, z: 27.95155}
 --- !u!1001 &642110425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21902,6 +21904,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605791adeb389b040a7e3132f6bc4cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftPosition: {x: 2.3927536, y: 26.175583, z: 44.443092}
+  rightPosition: {x: -28.816462, y: 7.124775, z: 27.95155}
 --- !u!1001 &1404795196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22076,6 +22080,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605791adeb389b040a7e3132f6bc4cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftPosition: {x: 2.3927536, y: 26.175583, z: 44.443092}
+  rightPosition: {x: -28.816462, y: 7.124775, z: 27.95155}
 --- !u!4 &1408080072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e74e1e17cbaec2440812c3484473b9d3, type: 3}
@@ -28975,6 +28981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605791adeb389b040a7e3132f6bc4cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftPosition: {x: 2.3927536, y: 26.175583, z: 44.443092}
+  rightPosition: {x: -28.816462, y: 7.124775, z: 27.95155}
 --- !u!1001 &1654844734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30612,7 +30620,7 @@ Transform:
   m_GameObject: {fileID: 1739395868}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.04, y: 4.63, z: 25.13}
+  m_LocalPosition: {x: -0.7900009, y: 12.880001, z: -89.62}
   m_LocalScale: {x: 7.205625, y: 7.205625, z: 7.205625}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30855,6 +30863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605791adeb389b040a7e3132f6bc4cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftPosition: {x: 2.3927536, y: 26.175583, z: 44.443092}
+  rightPosition: {x: -28.816462, y: 7.124775, z: 27.95155}
 --- !u!4 &1761633955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 7c9fb993626aaf8488be64eb9feadbbc, type: 3}
@@ -30893,6 +30903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605791adeb389b040a7e3132f6bc4cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftPosition: {x: 2.3927536, y: 26.175583, z: 44.443092}
+  rightPosition: {x: -28.816462, y: 7.124775, z: 27.95155}
 --- !u!1 &1764375985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000012196965144, guid: 0c5f7623cfebe9947bd7428d92b7b453, type: 3}
