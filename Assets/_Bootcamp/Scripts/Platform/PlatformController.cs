@@ -2,15 +2,14 @@
 using System.Collections;
 using _Bootcamp.Scripts.MyExtensions;
 using DG.Tweening;
+using Photon.Pun;
 using UnityEngine;
 using Zenject;
 
 namespace _Bootcamp.Scripts.Platform
 {
-    public class PlatformController : MonoBehaviour
+    public class PlatformController : MonoBehaviourPunCallbacks
     {
-        public bool isTrap;
-        
         [SerializeField] private bool _platformIsTimeLimited, _visible;
         [SerializeField] private float _countdownDelay, _initPosY, _fallDelay, _showDelay, _returnDelay = 5;
 
@@ -36,6 +35,7 @@ namespace _Bootcamp.Scripts.Platform
             transform.DOMoveY(targetPos.y, _showDelay);
         }
 
+        [PunRPC]
         private void FallPlatform()
         {
             var initY = transform.position.y;
@@ -59,7 +59,7 @@ namespace _Bootcamp.Scripts.Platform
 
             yield return new WaitForSeconds(_countdownDelay);
             
-            FallPlatform();
+            photonView.RPC("FallPlatform", RpcTarget.AllBuffered);
         }
     }
 }

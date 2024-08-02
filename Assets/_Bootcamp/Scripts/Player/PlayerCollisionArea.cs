@@ -18,13 +18,17 @@ namespace _Bootcamp.Scripts.Player
         {
             if (hit.transform.CompareTag("Lava"))
             {
+                transform.SetParent(null);
                 var pos = hit.transform.GetComponent<DeadSpawner>().GetPosition();
                 photonView.RPC("ChangePosRPC", RpcTarget.AllBuffered, pos);
             }
             else if (hit.transform.CompareTag("Trap"))
                 _playerMovement.SpawnInitPos();
             else if (hit.transform.TryGetComponent<PlatformController>(out var platform))
+            {
+                transform.SetParent(platform.transform);
                 platform.PlayerCollided();
+            }
         }
 
         private void OnTriggerEnter(Collider other)
