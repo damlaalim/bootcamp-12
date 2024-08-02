@@ -19,6 +19,7 @@ public class ObjectSpawner : MonoBehaviour
     private int currentPrefabIndex = 0;
     private int objectsInPlay = 0;
 
+    public Animator exitPlatformAnim;
     void Start()
     {
         currentSpawnRate = initialSpawnRate;
@@ -75,6 +76,6 @@ public class ObjectSpawner : MonoBehaviour
 
     void EndGame()
     {
-        //
+        exitPlatformAnim.SetBool("isGameEnded", true);
     }
 }

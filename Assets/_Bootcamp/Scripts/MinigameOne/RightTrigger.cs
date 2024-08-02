@@ -5,6 +5,7 @@ using UnityEngine;
 public class RightTrigger : MonoBehaviour
 {
     public Animator fenceAnim;
+    public Animator wallAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class RightTrigger : MonoBehaviour
         if (other.tag == "Player")
         {
             fenceAnim.SetTrigger("Righty");
+            wallAnim.SetTrigger("Wall Animation Begin");
         }
     }
 }

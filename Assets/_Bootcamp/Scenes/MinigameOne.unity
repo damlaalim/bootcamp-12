@@ -7823,6 +7823,7 @@ MonoBehaviour:
   difficultyIncreaseRate: 0.01
   maxSpawnRate: 5
   maxSpeed: 10
+  exitPlatformAnim: {fileID: 1784352383}
 --- !u!4 &772037516
 Transform:
   m_ObjectHideFlags: 0
@@ -8702,6 +8703,7 @@ MonoBehaviour:
   difficultyIncreaseRate: 0.01
   maxSpawnRate: 5
   maxSpeed: 10
+  exitPlatformAnim: {fileID: 0}
 --- !u!1001 &898998165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10082,6 +10084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fenceAnim: {fileID: 236678089}
+  wallAnim: {fileID: 1231344090}
 --- !u!1001 &1082126648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16046,6 +16049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fenceAnim: {fileID: 342110056}
+  wallAnim: {fileID: 1231344090}
 --- !u!1001 &1831244810
 PrefabInstance:
   m_ObjectHideFlags: 0
