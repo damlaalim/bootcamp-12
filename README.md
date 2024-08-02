@@ -72,7 +72,8 @@ Unity 12
   </summary>
   
   ## Logo
-  ![2](https://github.com/user-attachments/assets/4bbfad05-f79e-4dd4-804e-c0bea8abc216)
+  <img src = "https://github.com/user-attachments/assets/4bbfad05-f79e-4dd4-804e-c0bea8abc216" width="210px" height="200px">  
+  
 
   ## Ürün İsmi
   Deadly Jokes
