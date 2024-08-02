@@ -145,7 +145,7 @@ Unity 12
 ## Playlist URL
 Takımdaki herkesin sevdiği şarkıları eklediği ve çalışırken dinlediğimiz <a href = "https://open.spotify.com/playlist/23c1J5wlWcOJ7yCkH58QOq?si=e7ad3a4ede594fa0" target ="blank">çalma listemiz.</a>
 ## Jüriye Not
-Convai'ın ücretsiz sürümü kullanılmıştır bu yüzden belirli bir metin sonrasında ücretsiz sürümü dolmaktadır, eğer konuşma yapılamazsa sebebi budur. Ekipteki herkes yazılım ile ilgilendiği için çevre elementleri hazır ücretsiz assetler kullanılarak yapılmıştır. Oyun iki kişi oynamak için uygundur.
+Convai'ın ücretsiz sürümü kullanılmıştır bu yüzden belirli bir metin sonrasında ücretsiz sürümü dolmaktadır, eğer konuşma yapılamazsa sebebi budur. Ekipteki herkes yazılım ile ilgilendiği için çevre elementleri hazır ücretsiz assetler kullanılarak yapılmıştır. Oyun iki kişi oynamak için uygundur, odalar iki kişi de lobi ekranındayken kurulmalıdır.
 ## Sprintler
 
 <details>
